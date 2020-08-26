@@ -1,2 +1,1 @@
-# orion-net.co.jp
-https://orion-net.co.jp/
+# [orion-net.co.jp](https://orion-net.co.jp)

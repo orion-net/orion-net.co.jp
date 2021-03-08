@@ -60,9 +60,9 @@ export default () => (
                 <p class="paragraph">orionではサロンにてプロのカメラマンによる撮影会を開催いたします。</p>
                 <p class="paragraph"> </p>
                 <p class="large paragraph" style={{color : "#2d2d9f"}}>日程　１１月３日　(<span class="character" style={{color : "#e60000"}}>祝</span>）</p><br />
-                <p class="paragraph">三歳　　　　　￥２３．０００（税抜）<br />
-                五歳　　　　　￥１7．０００（税抜）<br />
-                七歳　　　　　￥３０．０００（税抜）</p>
+                <p class="paragraph">三歳　　　　　￥２８．０００（税抜）<br />
+                五歳　　　　　￥２２．０００（税抜）<br />
+                七歳　　　　　￥３５．０００（税抜）</p>
                 <p class="paragraph">ヘア・メイク・着付け・撮影料込</p>
                 <p class="paragraph"> </p>
                 <p class="paragraph">特典</p>
@@ -73,9 +73,9 @@ export default () => (
                 <p class="paragraph"><br /><br /></p>
                 <p class="paragraph">当日以外のヘアメイク　着付けのご予約も承っております。<br /></p>
                 <p class="paragraph"> </p>
-                <p class="paragraph">三歳　　　　　　￥１８．０００（税抜）<br />
-                五歳　　　　　　￥１2．０００（税抜）<br />
-                七歳　　　　　　￥２５．０００（税抜）</p>
+                <p class="paragraph">三歳　　　　　　￥２３．０００（税抜）<br />
+                五歳　　　　　　￥１７．０００（税抜）<br />
+                七歳　　　　　　￥３０．０００（税抜）</p>
                 <p class="paragraph"> </p>
                 <p class="paragraph">ヘア・メイク・着付け</p>
                 <p class="paragraph"> </p>

@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from 'gatsby'
 import { LinkNav } from '../components/LinkNav'
 import '../../static/style.css'
+import {Helmet} from "react-helmet";
 
 const Header = () => (
   <header id="masthead" class="site-header sp-part-top sp-header2" role="banner">
@@ -63,7 +64,7 @@ const Footer = () => (
   </footer>
 );
 
-export default () => (
+const App = () => (
   <div id="page" class="site">
 
     <Header />
@@ -142,4 +143,21 @@ export default () => (
     <Footer />
 
   </div>
+)
+
+const Layout = () => (
+  <>
+    <Helmet>
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      <link rel="manifest" href="/site.webmanifest" />
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    </Helmet>
+    <App />
+  </>
+)
+
+export default () => (
+  <Layout />
 );

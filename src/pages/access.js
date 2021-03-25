@@ -1,7 +1,9 @@
 import React from "react"
+import { copyright } from '../messages/copyright'
 import { Link } from 'gatsby'
 import { LinkNav } from '../components/LinkNav'
 import '../../static/style.css'
+import {AccessMap} from "../components/AccessMap";
 
 export default () => (
   <div id="page" class="site">
@@ -40,8 +42,9 @@ export default () => (
             <article>
               <div id="page-content" class="sp-part-top sp-block-container">
                 <h3 class="paragraph">周辺地図</h3>
-                <div data-hpbmap="data-hpbmap" id="sp-google-map-1" class="sp-part-top sp-google-map"></div>
-                <p class="paragraph">ORION<br /><br />
+                <AccessMap />
+                <br />
+                <p class="paragraph">ORION<br />
                 〒213-0026　神奈川県川崎市高津区久末２５３<br />
                 TEL.044-766-1610　　ﾌﾘｰﾀﾞｲﾔﾙ .0800-800-1612</p>
                 <p class="paragraph"> </p>
@@ -84,7 +87,7 @@ export default () => (
           </ul>
         </nav>
         <div id="sp-block-container-1" class="sp-part-top sp-block-container">
-          <p class="copyright paragraph">Copyright &copy; ○○○, All rights reserved.</p>
+          <p class="copyright paragraph">{ copyright  }</p>
         </div>
       </div>
     </footer>

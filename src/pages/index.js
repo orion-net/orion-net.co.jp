@@ -1,4 +1,5 @@
 import React from "react"
+import { copyright } from '../messages/copyright'
 import { Link } from 'gatsby'
 import { LinkNav } from '../components/LinkNav'
 import '../../static/style.css'
@@ -58,7 +59,7 @@ const Footer = () => (
         </ul>
       </nav>
       <div id="sp-block-container-1" class="sp-part-top sp-block-container">
-        <p class="copyright paragraph">Copyright &copy; ○○○, All rights reserved.</p>
+        <p class="copyright paragraph">{ copyright  }</p>
       </div>
     </div>
   </footer>

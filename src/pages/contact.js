@@ -6,43 +6,43 @@ import { LinkNav } from '../components/LinkNav'
 import '../../static/style.css'
 
 export default () => (
-  <div id="page" class="site">
-    <header id="masthead" class="site-header sp-part-top sp-header2" role="banner">
-      <div id="masthead-inner" class="sp-part-top sp-header-inner">
-        <div id="sp-site-branding2-1" class="sp-part-top sp-site-branding2">
-          <h1 class="site-title sp-part-top sp-site-title" id=""><a href="index.html">ビルダーサロン</a></h1>
-          <h2 class="site-description sp-part-top sp-catchphrase" id="">Orionは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
-          <div class="extra sp-part-top sp-site-branding-extra" style={{minHeight: "20px"}} id="sp-site-branding-extra-1"></div>
+  <div id="page" className="site">
+    <header id="masthead" className="site-header sp-part-top sp-header2" role="banner">
+      <div id="masthead-inner" className="sp-part-top sp-header-inner">
+        <div id="sp-site-branding2-1" className="sp-part-top sp-site-branding2">
+          <h1 className="site-title sp-part-top sp-site-title" id=""><a href="index.html">ビルダーサロン</a></h1>
+          <h2 className="site-description sp-part-top sp-catchphrase" id="">Orionは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
+          <div className="extra sp-part-top sp-site-branding-extra" style={{minHeight: "20px"}} id="sp-site-branding-extra-1"></div>
         </div>
       </div>
     </header>
-    <div id="main" class="site-main sp-part-top sp-main">
-      <div id="contenthead" class="sp-part-top sp-content-header">
+    <div id="main" className="site-main sp-part-top sp-main">
+      <div id="contenthead" className="sp-part-top sp-content-header">
         <a style={{display: "block"}}>
-          <img id="sp-image-1" src="img/top3.gif" class="sp-part-top sp-image" />
+          <img id="sp-image-1" src="img/top3.gif" className="sp-part-top sp-image" />
         </a>
-        <nav id="sp-site-navigation-1" class="navigation-main button-menu sp-part-top sp-site-navigation horizontal" role="navigation">
-          <h1 class="menu-toggle">メニュー</h1>
-          <div class="screen-reader-text skip-link"><a title="コンテンツへスキップ" href="#content">コンテンツへスキップ</a></div>
+        <nav id="sp-site-navigation-1" className="navigation-main button-menu sp-part-top sp-site-navigation horizontal" role="navigation">
+          <h1 className="menu-toggle">メニュー</h1>
+          <div className="screen-reader-text skip-link"><a title="コンテンツへスキップ" href="#content">コンテンツへスキップ</a></div>
           <LinkNav contact />
         </nav>
-        <div id="breadcrumb-list" class="sp-part-top sp-bread-crumb">
+        <div id="breadcrumb-list" className="sp-part-top sp-bread-crumb">
           <div><Link to="/">トップ</Link></div>
           <div>›</div>
           <div>お問い合わせ</div>
         </div>
       </div>
       <div id="main-inner">
-        <div id="primary" class="content-area">
-          <div id="content" class="site-content sp-part-top sp-content page-contact" role="main">
-            <header id="sp-page-title-5" class="entry-header sp-part-top sp-page-title">
-              <h1 class="entry-title">お問い合わせ</h1>
+        <div id="primary" className="content-area">
+          <div id="content" className="site-content sp-part-top sp-content page-contact" role="main">
+            <header id="sp-page-title-5" className="entry-header sp-part-top sp-page-title">
+              <h1 className="entry-title">お問い合わせ</h1>
             </header>
             <article>
-              <div id="page-content" class="sp-part-top sp-block-container">
-                <p class="large paragraph">お問い合わせは、こちらで受付しております。</p>
-                <h3 class="paragraph">電話・FAX</h3>
-                <dl id="sp-definition-list-9" class="sp-part-top sp-definition-list">
+              <div id="page-content" className="sp-part-top sp-block-container">
+                <p className="large paragraph">お問い合わせは、こちらで受付しております。</p>
+                <h3 className="paragraph">電話・FAX</h3>
+                <dl id="sp-definition-list-9" className="sp-part-top sp-definition-list">
                   <dt>TEL</dt>
                   <dd>044-766-1610 （09:00～18:00）</dd>
                   <dt> </dt>
@@ -50,14 +50,14 @@ export default () => (
                   <dt>FAX</dt>
                   <dd>044-766-1610</dd>
                 </dl>
-                <h3 class="paragraph">お問い合わせフォーム</h3>
-                <p class="paragraph">メールでのお問い合わせは、下記にて承っております。</p>
-                <p class="paragraph">お返事が遅くなる場合がございます。ご了承くださいませ。</p>
-                <p class="paragraph">※ただいまメールがつながらない状態になっております。</p>
-                <p class="paragraph">　恐れいりますが、お問い合わせはお電話にてお願い致します。</p>
-                <p class="large paragraph"> </p>
-                <p class="paragraph">*は必須項目です。</p>
-                <form id="sp-form-1" action="" method="GET" name="sp_form" class="sp-part-top sp-form">
+                <h3 className="paragraph">お問い合わせフォーム</h3>
+                <p className="paragraph">メールでのお問い合わせは、下記にて承っております。</p>
+                <p className="paragraph">お返事が遅くなる場合がございます。ご了承くださいませ。</p>
+                <p className="paragraph">※ただいまメールがつながらない状態になっております。</p>
+                <p className="paragraph">　恐れいりますが、お問い合わせはお電話にてお願い致します。</p>
+                <p className="large paragraph"> </p>
+                <p className="paragraph">*は必須項目です。</p>
+                <form id="sp-form-1" action="" method="GET" name="sp_form" className="sp-part-top sp-form">
                   <table>
                     <tbody>
                       <tr>
@@ -95,17 +95,17 @@ export default () => (
         <Sidebar />
       </div>
     </div>
-    <footer id="colophon" class="site-footer sp-part-top sp-footer2" role="contentinfo">
-      <div id="colophon-inner" class="sp-part-top sp-footer-inner">
-        <nav id="sp-site-navigation-2" class="navigation-main sp-part-top sp-site-navigation minimal" role="navigation">
-          <h1 class="menu-toggle">メニュー</h1>
-          <div class="screen-reader-text skip-link"><a title="コンテンツへスキップ" href="#content">コンテンツへスキップ</a></div>
+    <footer id="colophon" className="site-footer sp-part-top sp-footer2" role="contentinfo">
+      <div id="colophon-inner" className="sp-part-top sp-footer-inner">
+        <nav id="sp-site-navigation-2" className="navigation-main sp-part-top sp-site-navigation minimal" role="navigation">
+          <h1 className="menu-toggle">メニュー</h1>
+          <div className="screen-reader-text skip-link"><a title="コンテンツへスキップ" href="#content">コンテンツへスキップ</a></div>
           <ul id="menu-mainnav">
-            <li class="menu-item"><Link to="/privacy">プライバシーポリシー</Link></li>
+            <li className="menu-item"><Link to="/privacy">プライバシーポリシー</Link></li>
           </ul>
         </nav>
-        <div id="sp-block-container-1" class="sp-part-top sp-block-container">
-          <p class="copyright paragraph">{ copyright  }</p>
+        <div id="sp-block-container-1" className="sp-part-top sp-block-container">
+          <p className="copyright paragraph">{ copyright  }</p>
         </div>
       </div>
     </footer>

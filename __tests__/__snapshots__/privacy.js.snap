@@ -497,7 +497,7 @@ exports[`privacy renders correctly 1`] = `
           id="menu-mainnav"
         >
           <li
-            className="menu-item current_page_item"
+            className="menu-item"
           >
             <a
               href="/privacy"

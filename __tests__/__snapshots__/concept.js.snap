@@ -524,63 +524,63 @@ exports[`concept renders correctly 1`] = `
         </div>
       </div>
     </div>
-    <footer
-      className="site-footer sp-part-top sp-footer2"
-      id="colophon"
-      role="contentinfo"
+  </div>
+  <footer
+    className="site-footer sp-part-top sp-footer2"
+    id="colophon"
+    role="contentinfo"
+  >
+    <div
+      className="sp-part-top sp-footer-inner"
+      id="colophon-inner"
     >
-      <div
-        className="sp-part-top sp-footer-inner"
-        id="colophon-inner"
+      <nav
+        className="navigation-main sp-part-top sp-site-navigation minimal"
+        id="sp-site-navigation-2"
+        role="navigation"
       >
-        <nav
-          className="navigation-main sp-part-top sp-site-navigation minimal"
-          id="sp-site-navigation-2"
-          role="navigation"
+        <h1
+          className="menu-toggle"
         >
-          <h1
-            className="menu-toggle"
+          メニュー
+        </h1>
+        <div
+          className="screen-reader-text skip-link"
+        >
+          <a
+            href="#content"
+            title="コンテンツへスキップ"
           >
-            メニュー
-          </h1>
-          <div
-            className="screen-reader-text skip-link"
+            コンテンツへスキップ
+          </a>
+        </div>
+        <ul
+          id="menu-mainnav"
+        >
+          <li
+            className="menu-item"
           >
             <a
-              href="#content"
-              title="コンテンツへスキップ"
+              href="/privacy"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
             >
-              コンテンツへスキップ
+              プライバシーポリシー
             </a>
-          </div>
-          <ul
-            id="menu-mainnav"
-          >
-            <li
-              className="menu-item"
-            >
-              <a
-                href="/privacy"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-              >
-                プライバシーポリシー
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div
-          className="sp-part-top sp-block-container"
-          id="sp-block-container-1"
+          </li>
+        </ul>
+      </nav>
+      <div
+        className="sp-part-top sp-block-container"
+        id="sp-block-container-1"
+      >
+        <p
+          className="copyright paragraph"
         >
-          <p
-            className="copyright paragraph"
-          >
-            Copyright © オリオン美容室, All rights reserved.
-          </p>
-        </div>
+          Copyright © オリオン美容室, All rights reserved.
+        </p>
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </div>
 `;

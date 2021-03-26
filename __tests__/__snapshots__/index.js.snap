@@ -359,7 +359,6 @@ exports[`index renders correctly 1`] = `
                 >
                   ◎定休日
                 </b>
-                　　　
                 <b
                   className="character"
                   style={

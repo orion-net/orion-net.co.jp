@@ -1,4 +1,5 @@
 import React from "react"
+import { Sidebar } from '../components/Sidebar'
 import { copyright } from '../messages/copyright'
 import { Link } from 'gatsby'
 import { LinkNav } from '../components/LinkNav'
@@ -91,17 +92,7 @@ export default () => (
             </article>
           </div>
         </div>
-        <div id="sidebar1" class="sp-part-top sp-sidebar">
-          <div id="sp-button-1" class="sp-part-top sp-button"><a href="http://ameblo.jp/teamorion/?frm_id=v.mypage-ameblo--myblog--blog">ブログ</a></div>
-          <div id="sp-button-2" class="sp-part-top sp-button"><a href="https://www.facebook.com/orionannex.orion">Face Book</a></div>
-          <div id="sp-sns-button-1" class="sp-part-top sp-sns-button">
-            <ul>
-              <li><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Forion-net.co.jp%2Fcontact.html&amp;layout=button_count&amp;width=120&amp;height=21&amp;send=true&amp;show_faces=true&amp;share=false&amp;action=like&amp;colorscheme=light&amp;font" scrolling="no" frameborder="0" allowtransparency="true" style={{border:"none", overflow:"hidden", width:"120px", height:"21px"}}></iframe></li>
-              <li><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="ja">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
-                <li><a href="http://line.me/R/msg/text/?%0D%0Ahttp%3A%2F%2Forion-net.co.jp%2Fcontact.html"><img src="img/linebutton_horizontal.png" width="82" height="20" alt="" style={{border:"none"}}/></a></li>
-            </ul>
-          </div>
-        </div>
+        <Sidebar />
       </div>
     </div>
     <footer id="colophon" class="site-footer sp-part-top sp-footer2" role="contentinfo">

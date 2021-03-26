@@ -1,8 +1,8 @@
 import React from "react"
-import { copyright } from "../messages/copyright"
 import { Link } from "gatsby"
 import "../../static/style.css"
 import { Helmet } from "react-helmet"
+import { messages } from "../messages"
 
 const Header = () => (
   <header
@@ -53,7 +53,7 @@ const Footer = () => (
         </ul>
       </nav>
       <div id="sp-block-container-1" className="sp-part-top sp-block-container">
-        <p className="copyright paragraph">{copyright}</p>
+        <p className="copyright paragraph">{messages.copyright}</p>
       </div>
     </div>
   </footer>

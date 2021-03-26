@@ -20,7 +20,7 @@ export default () => (
     <div id="main" className="site-main sp-part-top sp-main">
       <div id="contenthead" className="sp-part-top sp-content-header">
         <a style={{display: "block"}}>
-          <img id="sp-image-1" src="img/top3.gif" className="sp-part-top sp-image" />
+          <img id="sp-image-1" src="/img/top3.gif" className="sp-part-top sp-image" />
         </a>
         <nav id="sp-site-navigation-1" className="navigation-main button-menu sp-part-top sp-site-navigation horizontal" role="navigation">
           <h1 className="menu-toggle">メニュー</h1>
@@ -56,7 +56,7 @@ export default () => (
                 <p className="paragraph">■使用方法<br />
                 洗顔後の清潔なお肌にお使いください。</p>
                 <p className="paragraph">気になる部分にはマッサージするように、2～3回重ね塗りしてください。<br /></p>
-                <p className="paragraph"><br /></p><a style={{display: "block"}}><img id="sp-image-22" src="img/img_01.jpg" className="sp-part-top sp-image" /></a><br />
+                <p className="paragraph"><br /></p><a style={{display: "block"}}><img id="sp-image-22" src="/img/img_01.jpg" className="sp-part-top sp-image" /></a><br />
                 <h1 className="paragraph"><span className="character" style={{color : "#ce3348"}}>ラ・プレシア　スキンケア</span></h1>
                 <p className="large paragraph"><b className="character" style={{color : "#004000"}}>○ラ・プレシア　クレンジングウォータージェル U</b></p>
                 <p className="paragraph"><br />
@@ -65,7 +65,7 @@ export default () => (
                 <p className="paragraph">150mL　￥5,000(税別)<br /></p>
                 <p className="paragraph">■使用方法<br />
                 500円玉大を手のひらにとり、お顔全体をマッサージするようによくなじませてください。全体になじみましたら、ぬるま湯等でよく洗い流してください。
-                <br /></p><a style={{display: "block"}}><img id="sp-image-23" src="img/image21.JPG" className="sp-part-top sp-image" /></a><br />
+                <br /></p><a style={{display: "block"}}><img id="sp-image-23" src="/img/image21.JPG" className="sp-part-top sp-image" /></a><br />
                 <p className="large paragraph" style={{color : "#004000"}}> </p>
                 <p className="large paragraph" style={{color : "#004000"}}> </p>
                 <p className="large paragraph" style={{color : "#004000"}}><b className="character">○ラ・プレシア　ローション U</b></p>
@@ -74,7 +74,7 @@ export default () => (
                 <p className="paragraph">化粧水、乳液、美容液。1本で3役の働き者です。<br /></p>
                 <p className="paragraph">80mL　￥9,000(税別)<br /></p>
                 <p className="paragraph">■使用方法<br />
-                ご使用前によくふってから500円玉大をとり、朝晩のお手入れにたっぷりとお使い下さい。乾燥の気になる部分には何度か重ね塗りしてください。</p><a style={{display: "block"}}><img id="sp-image-24" src="img/image25.JPG" className="sp-part-top sp-image" /></a>
+                ご使用前によくふってから500円玉大をとり、朝晩のお手入れにたっぷりとお使い下さい。乾燥の気になる部分には何度か重ね塗りしてください。</p><a style={{display: "block"}}><img id="sp-image-24" src="/img/image25.JPG" className="sp-part-top sp-image" /></a>
                 <p className="paragraph"> </p>
                 <p className="large paragraph"> </p>
                 <p className="large paragraph"> </p>
@@ -86,7 +86,7 @@ export default () => (
                 <p className="paragraph"><br />
                 31g　￥8,500(税別)<br /></p>
                 <p className="paragraph">■使用方法<br />
-                朝晩のお手入れの際、ローションを塗ったあとにパール1個分を目安にお顔全体にのばします。目元や口元など乾燥が気になる部分には、たっぷりとお使い下さい。</p><a style={{display: "block"}}><img id="sp-image-25" src="img/img_1.jpg" className="sp-part-top sp-image" /></a>
+                朝晩のお手入れの際、ローションを塗ったあとにパール1個分を目安にお顔全体にのばします。目元や口元など乾燥が気になる部分には、たっぷりとお使い下さい。</p><a style={{display: "block"}}><img id="sp-image-25" src="/img/img_1.jpg" className="sp-part-top sp-image" /></a>
                 <p className="paragraph"> </p>
                 <p className="large paragraph"> </p>
                 <p className="large paragraph"><b className="character" style={{color : "#004000"}}>○ラ・プレシア　エクストラクリーム U</b><br /></p>
@@ -98,7 +98,7 @@ export default () => (
                 <p className="paragraph"> </p>
                 <p className="paragraph">■使用方法<br />
                 朝晩のお手入れの際、ローションを塗ったあとにパール1個分を目安にお顔全体にのばします。</p>
-                <p className="paragraph">目元や口元など乾燥が気になる部分には、たっぷりとお使い下さい。</p><a style={{display: "block"}}><img id="sp-image-26" src="img/image26.JPG" className="sp-part-top sp-image" /></a>
+                <p className="paragraph">目元や口元など乾燥が気になる部分には、たっぷりとお使い下さい。</p><a style={{display: "block"}}><img id="sp-image-26" src="/img/image26.JPG" className="sp-part-top sp-image" /></a>
                 <p className="paragraph"> </p>
                 <h1 className="paragraph"><span className="character" style={{color : "#ce3348"}}>ラ・プレシア　SoRE</span></h1>
                 <p className="large paragraph"> </p>
@@ -115,7 +115,7 @@ export default () => (
                 クレンジング、洗顔後に原液シリーズを塗布し、「ラ・プレシア　ローション」</p>
                 <p className="paragraph">「ラ・プレシア　クリーム」でお肌を整えた後、あずき粒大をお顔全体にムラなく伸ばします</p>
                 <p className="paragraph">（気になる箇所は重ね塗りをして下さい）。手や首にもお使いください。<br /></p>
-                <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-27" src="img/sore.JPG" className="sp-part-top sp-image" /></a>
+                <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-27" src="/img/sore.JPG" className="sp-part-top sp-image" /></a>
                 <h1 className="paragraph"><span className="character" style={{color : "#ce3348"}}>ラ・プレシア　ヴェール</span></h1>
                 <p className="paragraph"> </p>
                 <p className="paragraph">スキンケア発想の魅せ肌ファンデ、『ラ・プレシア ヴェール』のご紹介です。</p>
@@ -135,13 +135,13 @@ export default () => (
                 <p className="paragraph">　○　保湿性に優れ、いきいきとしたツヤと透明感を生み出す</p>
                 <p className="paragraph">　○　化粧崩れしにくい、透明感ある仕上がり</p>
                 <p className="paragraph">　○　１５種類以上の美容成分配合</p>
-                <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-28" src="img/image19.jpg" className="sp-part-top sp-image" /></a>
+                <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-28" src="/img/image19.jpg" className="sp-part-top sp-image" /></a>
                 <p className="paragraph"> </p>
                 <p className="paragraph"><b className="character" style={{color : "#ce3348"}}>☆ラ・プレシア　ヴェール ルースパウダー</b><br />
                 　　【パウダーファンデーション】　8g　￥3,000(税別)・パフ付<br /><br />
                 　　○　超微粒子ルースパウダーでパール感があり上品な肌に</p>
                 <p className="paragraph">　　○　一瞬にして肌になじみ、独自のツヤとフィット感を演出</p>
-                <p className="paragraph">　　○　ふんわりとした明るさを与え化粧崩れを防止</p><br /><a style={{display: "block"}}><img id="sp-image-29" src="img/image20.jpg" className="sp-part-top sp-image" /></a>
+                <p className="paragraph">　　○　ふんわりとした明るさを与え化粧崩れを防止</p><br /><a style={{display: "block"}}><img id="sp-image-29" src="/img/image20.jpg" className="sp-part-top sp-image" /></a>
               </div>
             </article>
           </div>

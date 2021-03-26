@@ -45,7 +45,7 @@ const App = () => (
     <div id="main" className="site-main sp-part-top sp-main">
       <div id="contenthead" className="sp-part-top sp-content-header">
         <a style={{display: "block"}}>
-          <img id="sp-image-1" src="img/top3.gif" className="sp-part-top sp-image" />
+          <img id="sp-image-1" src="/img/top3.gif" className="sp-part-top sp-image" />
         </a>
         <nav id="sp-site-navigation-1" className="navigation-main button-menu sp-part-top sp-site-navigation horizontal" role="navigation">
           <h1 className="menu-toggle">メニュー</h1>

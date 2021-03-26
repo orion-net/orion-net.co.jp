@@ -20,7 +20,7 @@ export default () => (
     <div id="main" className="site-main sp-part-top sp-main">
       <div id="contenthead" className="sp-part-top sp-content-header">
         <a style={{display: "block"}}>
-          <img id="sp-image-1" src="img/top3.gif" className="sp-part-top sp-image" />
+          <img id="sp-image-1" src="/img/top3.gif" className="sp-part-top sp-image" />
         </a>
         <nav id="sp-site-navigation-1" className="navigation-main button-menu sp-part-top sp-site-navigation horizontal" role="navigation">
           <h1 className="menu-toggle">メニュー</h1>
@@ -44,7 +44,7 @@ export default () => (
             <article>
               <div id="page-content" className="sp-part-top sp-block-container">
                 <h1 className="paragraph" style={{textAlign : "left"}}>ミントベル　シャンプー・コンディショナー　<br /></h1><br /><br />
-                <a style={{display: "block"}}><img id="sp-image-30" src="img/IMG_4.JPG" className="sp-part-top sp-image" /></a>
+                <a style={{display: "block"}}><img id="sp-image-30" src="/img/IMG_4.JPG" className="sp-part-top sp-image" /></a>
                 <p className="large paragraph"> </p>
                 <p className="large paragraph"> </p>
                 <p className="large paragraph">天然メントール（涼感成分）配合、メントールの気持ちの良い爽快感と、<br /><br />
@@ -86,7 +86,7 @@ export default () => (
                 <p className="large paragraph"> </p>
                 <p className="large paragraph"> </p>
                 <h1 className="paragraph" style={{textAlign : "left"}}>フィトリーク</h1>
-                <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-31" src="img/IMG_1857.JPG" className="sp-part-top sp-image" /></a>
+                <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-31" src="/img/IMG_1857.JPG" className="sp-part-top sp-image" /></a>
                 <p className="paragraph"> </p>
                 <p className="large paragraph"><b className="character" style={{color : "#2d2d9f"}}>９７mL ￥２,６００（税抜</b>）</p>
                 <p className="paragraph"> </p>
@@ -145,7 +145,7 @@ export default () => (
                 <p className="paragraph"> </p>
                 <p className="paragraph"><br /></p>
                 <h1 className="paragraph">F.プロテクト フォルムキーパー</h1>
-                <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-32" src="img/image30.JPG" className="sp-part-top sp-image" /></a>
+                <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-32" src="/img/image30.JPG" className="sp-part-top sp-image" /></a>
                 <p className="paragraph"> </p>
                 <p className="large paragraph" style={{color : "#2d2d9f"}}>200mL　¥1,200　　※価格は税抜きとなります。</p>
                 <p className="paragraph"> </p>
@@ -168,7 +168,7 @@ export default () => (
                 <p className="large paragraph">乾かしながら仕上げをしてください。</p>
                 <p className="large paragraph"> </p>
                 <p className="paragraph">※その他、ご質問や使用感等はサロンでお気軽にお尋ねください。</p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                <h1 className="paragraph"><b className="character" style={{color : "#1c1c64"}}>ミラベルファースト</b>　　MIRABELLE FIRST</h1><a style={{display: "block"}}><img id="sp-image-33" src="img/image27.JPG" className="sp-part-top sp-image" /></a>
+                <h1 className="paragraph"><b className="character" style={{color : "#1c1c64"}}>ミラベルファースト</b>　　MIRABELLE FIRST</h1><a style={{display: "block"}}><img id="sp-image-33" src="/img/image27.JPG" className="sp-part-top sp-image" /></a>
                 <p className="paragraph"> </p>
                 <p className="large paragraph" style={{color : "#2d2d9f"}}>ミラベルファースト<br />
                 カクテルリシェソーダフォーム（洗顔料）<br />
@@ -194,7 +194,7 @@ export default () => (
                 <p className="large paragraph" style={{color : "#2d2d9f"}}>その後、水またはぬるま湯で十分にすすいでください。<br /><br />
                 ※できるだけ手や顔が濡れていない状態でご使用ください。<br />
                 ※ご使用前によく振ってください。<br />
-                ※頭部を上にしてご使用ください。<br /><br /></p><a style={{display: "block"}}><img id="sp-image-34" src="img/image29.JPG" className="sp-part-top sp-image" /></a>
+                ※頭部を上にしてご使用ください。<br /><br /></p><a style={{display: "block"}}><img id="sp-image-34" src="/img/image29.JPG" className="sp-part-top sp-image" /></a>
                 <p className="large paragraph" style={{color : "#ce3348"}}><br />
                 MIRABELLE FIRST（ミラベル ファースト）は、極上の潤い肌へ導く、<br />
                 パーフェクトケアステップです。<br />

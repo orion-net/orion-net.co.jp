@@ -19,7 +19,7 @@ export default () => (
     <div id="main" className="site-main sp-part-top sp-main">
       <div id="contenthead" className="sp-part-top sp-content-header">
         <a style={{display: "block"}}>
-          <img id="sp-image-1" src="img/top3.gif" className="sp-part-top sp-image" />
+          <img id="sp-image-1" src="/img/top3.gif" className="sp-part-top sp-image" />
         </a>
         <nav id="sp-site-navigation-1" className="navigation-main button-menu sp-part-top sp-site-navigation horizontal" role="navigation">
           <h1 className="menu-toggle">メニュー</h1>
@@ -55,9 +55,9 @@ export default () => (
                 <p className="paragraph">※金額はお問い合わせください。</p>
                 <p className="paragraph"> </p>
                 <p className="large paragraph" style={{color : "#e8034a"}}><u className="character" style={{color : "#e60000"}}>注：写真転載厳禁</u></p>
-                <p className="paragraph"> </p><br /><a style={{display: "block"}}><img id="sp-image-14" src="img/u-1t.jpg" className="sp-part-top sp-image"/></a><br /><a style={{display: "block"}}><img id="sp-image-15" src="img/i-1.jpg" className="sp-part-top sp-image"/></a><br />
-                <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-16" src="img/k-1t.jpg" className="sp-part-top sp-image"/></a>
-                <hr /><a style={{display: "block"}}><img id="sp-image-17" src="img/m-1.jpg" className="sp-part-top sp-image"/></a>
+                <p className="paragraph"> </p><br /><a style={{display: "block"}}><img id="sp-image-14" src="/img/u-1t.jpg" className="sp-part-top sp-image"/></a><br /><a style={{display: "block"}}><img id="sp-image-15" src="/img/i-1.jpg" className="sp-part-top sp-image"/></a><br />
+                <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-16" src="/img/k-1t.jpg" className="sp-part-top sp-image"/></a>
+                <hr /><a style={{display: "block"}}><img id="sp-image-17" src="/img/m-1.jpg" className="sp-part-top sp-image"/></a>
                 <h3 className="paragraph">七五三</h3>
                 <p className="paragraph">orionではサロンにてプロのカメラマンによる撮影会を開催いたします。</p>
                 <p className="paragraph"> </p>
@@ -85,7 +85,7 @@ export default () => (
                 <p className="paragraph"> </p>
                 <p className="large paragraph" style={{color : "#e60000"}}><u className="character">注：写真転載厳禁</u><br />
                 　　　　　　　　</p>
-                　　　　　　　　　 <a style={{display: "block"}}><img id="sp-image-18" src="img/image33.jpg" className="sp-part-top sp-image"/></a><a style={{display: "block"}}><img id="sp-image-19" src="img/image34.jpg" className="sp-part-top sp-image"/></a><a style={{display: "block"}}><img id="sp-image-20" src="img/image35.jpg" className="sp-part-top sp-image"/></a><a style={{display: "block"}}><img id="sp-image-21" src="img/image32.jpg" className="sp-part-top sp-image"/></a>
+                　　　　　　　　　 <a style={{display: "block"}}><img id="sp-image-18" src="/img/image33.jpg" className="sp-part-top sp-image"/></a><a style={{display: "block"}}><img id="sp-image-19" src="/img/image34.jpg" className="sp-part-top sp-image"/></a><a style={{display: "block"}}><img id="sp-image-20" src="/img/image35.jpg" className="sp-part-top sp-image"/></a><a style={{display: "block"}}><img id="sp-image-21" src="/img/image32.jpg" className="sp-part-top sp-image"/></a>
               </div>
             </article>
           </div>

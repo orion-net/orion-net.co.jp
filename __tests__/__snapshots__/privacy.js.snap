@@ -1,0 +1,525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`privacy renders correctly 1`] = `
+<div
+  className="site"
+  id="page"
+>
+  <header
+    className="site-header sp-part-top sp-header2"
+    id="masthead"
+    role="banner"
+  >
+    <div
+      className="sp-part-top sp-header-inner"
+      id="masthead-inner"
+    >
+      <div
+        className="sp-part-top sp-site-branding2"
+        id="sp-site-branding2-1"
+      >
+        <h1
+          className="site-title sp-part-top sp-site-title"
+          id=""
+        >
+          <a
+            href="index.html"
+          >
+            ビルダーサロン
+          </a>
+        </h1>
+        <h2
+          className="site-description sp-part-top sp-catchphrase"
+          id=""
+        >
+          オリオンは川崎市高津区久末の美容院・ヘアーサロンです。
+        </h2>
+        <div
+          className="extra sp-part-top sp-site-branding-extra"
+          id="sp-site-branding-extra-1"
+          style={
+            Object {
+              "minHeight": "20px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </header>
+  <div
+    className="site-main sp-part-top sp-main"
+    id="main"
+  >
+    <div
+      className="sp-part-top sp-content-header"
+      id="contenthead"
+    >
+      <a
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <img
+          className="sp-part-top sp-image"
+          id="sp-image-1"
+          src="/img/top3.gif"
+        />
+      </a>
+      <nav
+        className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
+        id="sp-site-navigation-1"
+        role="navigation"
+      >
+        <h1
+          className="menu-toggle"
+        >
+          メニュー
+        </h1>
+        <div
+          className="screen-reader-text skip-link"
+        >
+          <a
+            href="#content"
+            title="コンテンツへスキップ"
+          >
+            コンテンツへスキップ
+          </a>
+        </div>
+        <ul
+          className="toggled-on"
+          id="menu-mainnav"
+        >
+          <li
+            className="menu-item "
+          >
+            <a
+              aria-current="page"
+              className=""
+              href="/"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              style={Object {}}
+            >
+              トップページ
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/concept"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              サロン紹介
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/menu"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              メニュー
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              商品紹介
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom2"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              おすすめ
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom1"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              ご予約
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/access"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              アクセス
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/concept1"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              成人式・七五三
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/contact"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              お問い合わせ
+            </a>
+          </li>
+          <li
+            className="menu-item current_page_item"
+          >
+            <a
+              href="/privacy"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              プライバシーポリシー
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom3"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              成人式・スナップ集
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        className="sp-part-top sp-bread-crumb"
+        id="breadcrumb-list"
+      >
+        <div>
+          <a
+            aria-current="page"
+            className=""
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            style={Object {}}
+          >
+            トップ
+          </a>
+        </div>
+        <div>
+          ›
+        </div>
+        <div>
+          プライバシーポリシー
+        </div>
+      </div>
+    </div>
+    <div
+      id="main-inner"
+    >
+      <div
+        className="content-area"
+        id="primary"
+      >
+        <div
+          className="site-content sp-part-top sp-content page-privacy"
+          id="content"
+          role="main"
+        >
+          <header
+            className="entry-header sp-part-top sp-page-title"
+            id="sp-page-title-7"
+          >
+            <h1
+              className="entry-title"
+            >
+              プライバシーポリシー
+            </h1>
+          </header>
+          <article>
+            <div
+              className="sp-part-top sp-block-container"
+              id="page-content"
+            >
+              <p
+                className="large paragraph"
+              >
+                オリオン（以下当店）では、個人情報に関する法令およびその他の規範を遵守し、
+              </p>
+              <p
+                className="large paragraph"
+              >
+                お客様の大切な個人情報の保護に万全を尽くします。
+              </p>
+              <h3
+                className="paragraph"
+              >
+                個人情報の収集について
+              </h3>
+              <p
+                className="paragraph"
+              >
+                当店では、次のような場合に必要な範囲で個人情報を収集することがあります。
+              </p>
+              <ul
+                className="sp-part-top sp-list"
+                id="sp-list-1"
+              >
+                <li>
+                  当店へのお問い合わせ時
+                </li>
+                <li>
+                  当店へのサービスお申し込み時
+                </li>
+              </ul>
+              <hr />
+              <h3
+                className="paragraph"
+              >
+                個人情報の利用目的について
+              </h3>
+              <p
+                className="paragraph"
+              >
+                当店は、お客様から収集した個人情報を次の目的で利用いたします。
+              </p>
+              <ul
+                className="sp-part-top sp-list"
+                id="sp-list-2"
+              >
+                <li>
+                  お客様への連絡のため
+                </li>
+                <li>
+                  お客様からのお問い合せに対する回答のため
+                </li>
+                <li>
+                  お客様へのサービス提供のため
+                </li>
+              </ul>
+              <hr />
+              <h3
+                className="paragraph"
+              >
+                個人情報の第三者への提供について
+              </h3>
+              <p
+                className="paragraph"
+              >
+                当店では、お客様より取得した個人情報を第三者に開示または提供することはありません。
+                <br />
+                ただし、次の場合は除きます。
+              </p>
+              <ul
+                className="sp-part-top sp-list"
+                id="sp-list-3"
+              >
+                <li>
+                  ご本人の同意がある場合
+                </li>
+                <li>
+                  警察からの要請など、官公署からの要請の場合
+                </li>
+                <li>
+                  法律の適用を受ける場合
+                </li>
+              </ul>
+              <hr />
+              <h3
+                className="paragraph"
+              >
+                個人情報の開示、訂正等について
+              </h3>
+              <p
+                className="paragraph"
+              >
+                当店は、お客様ご本人からの自己情報の開示、訂正、削除等のお求めがあった場合は、確実に応じます。
+              </p>
+              <hr />
+              <h3
+                className="paragraph"
+              >
+                個人情報保護に関するお問い合わせ先
+              </h3>
+              <p
+                className="paragraph"
+              >
+                TEL.FAX 044-766-1610　ﾌﾘｰﾀﾞｲﾔﾙ.080-0800-1612
+              </p>
+              <p
+                className="paragraph"
+              >
+                オリオン美容室　　代表　　武藤　夏代
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div
+        className="sp-part-top sp-sidebar"
+        id="sidebar1"
+      >
+        <div
+          className="sp-part-top sp-button"
+          id="sp-button-1"
+        >
+          <a
+            href="https://ameblo.jp/teamorion/?frm_id=v.mypage-ameblo--myblog--blog"
+          >
+            ブログ
+          </a>
+        </div>
+        <div
+          className="sp-part-top sp-button"
+          id="sp-button-2"
+        >
+          <a
+            href="https://www.facebook.com/orionannex.orion"
+          >
+            Face Book
+          </a>
+        </div>
+        <div
+          className="sp-part-top sp-sns-button"
+          id="sp-sns-button-1"
+        >
+          <ul>
+            <li>
+              <iframe
+                allowtransparency="true"
+                frameBorder="0"
+                scrolling="no"
+                src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Forion-net.co.jp%2Fprivacy.html&layout=button_count&width=120&height=21&send=true&show_faces=true&share=false&action=like&colorscheme=light&font"
+                style={
+                  Object {
+                    "border": "none",
+                    "height": "21px",
+                    "overflow": "hidden",
+                    "width": "120px",
+                  }
+                }
+              />
+            </li>
+            <li>
+              <a
+                className="twitter-share-button"
+                data-count="horizontal"
+                data-lang="ja"
+                href="https://twitter.com/share"
+              >
+                Tweet
+              </a>
+              <script
+                charSet="utf-8"
+                src="https://platform.twitter.com/widgets.js"
+                type="text/javascript"
+              />
+            </li>
+            <li>
+              <a
+                href="https://line.me/R/msg/text/?%0D%0Ahttp%3A%2F%2Forion-net.co.jp%2Fprivacy.html"
+              >
+                <img
+                  alt=""
+                  height="20"
+                  src="/img/linebutton_horizontal.png"
+                  style={
+                    Object {
+                      "border": "none",
+                    }
+                  }
+                  width="82"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="site-footer sp-part-top sp-footer2"
+    id="colophon"
+    role="contentinfo"
+  >
+    <div
+      className="sp-part-top sp-footer-inner"
+      id="colophon-inner"
+    >
+      <nav
+        className="navigation-main sp-part-top sp-site-navigation minimal"
+        id="sp-site-navigation-2"
+        role="navigation"
+      >
+        <h1
+          className="menu-toggle"
+        >
+          メニュー
+        </h1>
+        <div
+          className="screen-reader-text skip-link"
+        >
+          <a
+            href="#content"
+            title="コンテンツへスキップ"
+          >
+            コンテンツへスキップ
+          </a>
+        </div>
+        <ul
+          id="menu-mainnav"
+        >
+          <li
+            className="menu-item current_page_item"
+          >
+            <a
+              href="/privacy"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              プライバシーポリシー
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        className="sp-part-top sp-block-container"
+        id="sp-block-container-1"
+      >
+        <p
+          className="copyright paragraph"
+        >
+          Copyright © オリオン美容室, All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

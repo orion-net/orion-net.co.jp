@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contact renders correctly 1`] = `
+<div
+  className="site"
+  id="page"
+>
+  <header
+    className="site-header sp-part-top sp-header2"
+    id="masthead"
+    role="banner"
+  >
+    <div
+      className="sp-part-top sp-header-inner"
+      id="masthead-inner"
+    >
+      <div
+        className="sp-part-top sp-site-branding2"
+        id="sp-site-branding2-1"
+      >
+        <h1
+          className="site-title sp-part-top sp-site-title"
+          id=""
+        >
+          <a
+            href="index.html"
+          >
+            ビルダーサロン
+          </a>
+        </h1>
+        <h2
+          className="site-description sp-part-top sp-catchphrase"
+          id=""
+        >
+          オリオンは川崎市高津区久末の美容院・ヘアーサロンです。
+        </h2>
+        <div
+          className="extra sp-part-top sp-site-branding-extra"
+          id="sp-site-branding-extra-1"
+          style={
+            Object {
+              "minHeight": "20px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </header>
+  <div
+    className="site-main sp-part-top sp-main"
+    id="main"
+  >
+    <div
+      className="sp-part-top sp-content-header"
+      id="contenthead"
+    >
+      <a
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <img
+          className="sp-part-top sp-image"
+          id="sp-image-1"
+          src="/img/top3.gif"
+        />
+      </a>
+      <nav
+        className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
+        id="sp-site-navigation-1"
+        role="navigation"
+      >
+        <h1
+          className="menu-toggle"
+        >
+          メニュー
+        </h1>
+        <div
+          className="screen-reader-text skip-link"
+        >
+          <a
+            href="#content"
+            title="コンテンツへスキップ"
+          >
+            コンテンツへスキップ
+          </a>
+        </div>
+        <ul
+          className="toggled-on"
+          id="menu-mainnav"
+        >
+          <li
+            className="menu-item "
+          >
+            <a
+              aria-current="page"
+              className=""
+              href="/"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              style={Object {}}
+            >
+              トップページ
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/concept"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              サロン紹介
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/menu"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              メニュー
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              商品紹介
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom2"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              おすすめ
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom1"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              ご予約
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/access"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              アクセス
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/concept1"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              成人式・七五三
+            </a>
+          </li>
+          <li
+            className="menu-item current_page_item"
+          >
+            <a
+              href="/contact"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              お問い合わせ
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/privacy"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              プライバシーポリシー
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom3"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              成人式・スナップ集
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        className="sp-part-top sp-bread-crumb"
+        id="breadcrumb-list"
+      >
+        <div>
+          <a
+            aria-current="page"
+            className=""
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            style={Object {}}
+          >
+            トップ
+          </a>
+        </div>
+        <div>
+          ›
+        </div>
+        <div>
+          お問い合わせ
+        </div>
+      </div>
+    </div>
+    <div
+      id="main-inner"
+    >
+      <div
+        className="content-area"
+        id="primary"
+      >
+        <div
+          className="site-content sp-part-top sp-content page-contact"
+          id="content"
+          role="main"
+        >
+          <header
+            className="entry-header sp-part-top sp-page-title"
+            id="sp-page-title-5"
+          >
+            <h1
+              className="entry-title"
+            >
+              お問い合わせ
+            </h1>
+          </header>
+          <article>
+            <div
+              className="sp-part-top sp-block-container"
+              id="page-content"
+            >
+              <p
+                className="large paragraph"
+              >
+                お問い合わせは、こちらで受付しております。
+              </p>
+              <h3
+                className="paragraph"
+              >
+                電話・FAX
+              </h3>
+              <dl
+                className="sp-part-top sp-definition-list"
+                id="sp-definition-list-9"
+              >
+                <dt>
+                  TEL
+                </dt>
+                <dd>
+                  044-766-1610 （09:00～18:00）
+                </dd>
+                <dt>
+                   
+                </dt>
+                <dd>
+                  0800-800-1612 (ﾌﾘｰﾀﾞｲﾔﾙ）
+                </dd>
+                <dt>
+                  FAX
+                </dt>
+                <dd>
+                  044-766-1610
+                </dd>
+              </dl>
+              <h3
+                className="paragraph"
+              >
+                お問い合わせフォーム
+              </h3>
+              <p
+                className="paragraph"
+              >
+                メールでのお問い合わせは、下記にて承っております。
+              </p>
+              <p
+                className="paragraph"
+              >
+                お返事が遅くなる場合がございます。ご了承くださいませ。
+              </p>
+              <p
+                className="paragraph"
+              >
+                ※ただいまメールがつながらない状態になっております。
+              </p>
+              <p
+                className="paragraph"
+              >
+                　恐れいりますが、お問い合わせはお電話にてお願い致します。
+              </p>
+              <p
+                className="large paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                *は必須項目です。
+              </p>
+              <form
+                action=""
+                className="sp-part-top sp-form"
+                id="sp-form-1"
+                method="GET"
+                name="sp_form"
+              >
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>
+                        お問い合わせ内容 *
+                      </th>
+                      <td>
+                        <textarea
+                          name="message"
+                          required="required"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        お名前（漢字）*
+                      </th>
+                      <td>
+                        <input
+                          name="name-kanji"
+                          required="required"
+                          type="text"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        お名前（フリガナ）*
+                      </th>
+                      <td>
+                        <input
+                          name="kana"
+                          required="required"
+                          type="text"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        E-Mail*
+                      </th>
+                      <td>
+                        <input
+                          name="email"
+                          required="required"
+                          type="text"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        電話番号（半角）*
+                      </th>
+                      <td>
+                        <input
+                          name="tel"
+                          required="required"
+                          type="text"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        FAX番号（半角）
+                      </th>
+                      <td>
+                        <input
+                          name="fax"
+                          type="text"
+                        />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <input
+                  type="submit"
+                  value="送信"
+                />
+              </form>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div
+        className="sp-part-top sp-sidebar"
+        id="sidebar1"
+      >
+        <div
+          className="sp-part-top sp-button"
+          id="sp-button-1"
+        >
+          <a
+            href="https://ameblo.jp/teamorion/?frm_id=v.mypage-ameblo--myblog--blog"
+          >
+            ブログ
+          </a>
+        </div>
+        <div
+          className="sp-part-top sp-button"
+          id="sp-button-2"
+        >
+          <a
+            href="https://www.facebook.com/orionannex.orion"
+          >
+            Face Book
+          </a>
+        </div>
+        <div
+          className="sp-part-top sp-sns-button"
+          id="sp-sns-button-1"
+        >
+          <ul>
+            <li>
+              <iframe
+                allowtransparency="true"
+                frameBorder="0"
+                scrolling="no"
+                src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Forion-net.co.jp%2Fprivacy.html&layout=button_count&width=120&height=21&send=true&show_faces=true&share=false&action=like&colorscheme=light&font"
+                style={
+                  Object {
+                    "border": "none",
+                    "height": "21px",
+                    "overflow": "hidden",
+                    "width": "120px",
+                  }
+                }
+              />
+            </li>
+            <li>
+              <a
+                className="twitter-share-button"
+                data-count="horizontal"
+                data-lang="ja"
+                href="https://twitter.com/share"
+              >
+                Tweet
+              </a>
+              <script
+                charSet="utf-8"
+                src="https://platform.twitter.com/widgets.js"
+                type="text/javascript"
+              />
+            </li>
+            <li>
+              <a
+                href="https://line.me/R/msg/text/?%0D%0Ahttp%3A%2F%2Forion-net.co.jp%2Fprivacy.html"
+              >
+                <img
+                  alt=""
+                  height="20"
+                  src="/img/linebutton_horizontal.png"
+                  style={
+                    Object {
+                      "border": "none",
+                    }
+                  }
+                  width="82"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="site-footer sp-part-top sp-footer2"
+    id="colophon"
+    role="contentinfo"
+  >
+    <div
+      className="sp-part-top sp-footer-inner"
+      id="colophon-inner"
+    >
+      <nav
+        className="navigation-main sp-part-top sp-site-navigation minimal"
+        id="sp-site-navigation-2"
+        role="navigation"
+      >
+        <h1
+          className="menu-toggle"
+        >
+          メニュー
+        </h1>
+        <div
+          className="screen-reader-text skip-link"
+        >
+          <a
+            href="#content"
+            title="コンテンツへスキップ"
+          >
+            コンテンツへスキップ
+          </a>
+        </div>
+        <ul
+          id="menu-mainnav"
+        >
+          <li
+            className="menu-item"
+          >
+            <a
+              href="/privacy"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              プライバシーポリシー
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        className="sp-part-top sp-block-container"
+        id="sp-block-container-1"
+      >
+        <p
+          className="copyright paragraph"
+        >
+          Copyright © オリオン美容室, All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

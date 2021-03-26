@@ -1,0 +1,774 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`concept1 renders correctly 1`] = `
+<div
+  className="site"
+  id="page"
+>
+  <header
+    className="site-header sp-part-top sp-header2"
+    id="masthead"
+    role="banner"
+  >
+    <div
+      className="sp-part-top sp-header-inner"
+      id="masthead-inner"
+    >
+      <div
+        className="sp-part-top sp-site-branding2"
+        id="sp-site-branding2-1"
+      >
+        <h1
+          className="site-title sp-part-top sp-site-title"
+          id=""
+        >
+          <a
+            href="index.html"
+          >
+            ビルダーサロン
+          </a>
+        </h1>
+        <h2
+          className="site-description sp-part-top sp-catchphrase"
+          id=""
+        >
+          オリオンは川崎市高津区久末の美容院・ヘアーサロンです。
+        </h2>
+        <div
+          className="extra sp-part-top sp-site-branding-extra"
+          id="sp-site-branding-extra-1"
+          style={
+            Object {
+              "minHeight": "20px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </header>
+  <div
+    className="site-main sp-part-top sp-main"
+    id="main"
+  >
+    <div
+      className="sp-part-top sp-content-header"
+      id="contenthead"
+    >
+      <a
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <img
+          className="sp-part-top sp-image"
+          id="sp-image-1"
+          src="/img/top3.gif"
+        />
+      </a>
+      <nav
+        className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
+        id="sp-site-navigation-1"
+        role="navigation"
+      >
+        <h1
+          className="menu-toggle"
+        >
+          メニュー
+        </h1>
+        <div
+          className="screen-reader-text skip-link"
+        >
+          <a
+            href="#content"
+            title="コンテンツへスキップ"
+          >
+            コンテンツへスキップ
+          </a>
+        </div>
+        <ul
+          className="toggled-on"
+          id="menu-mainnav"
+        >
+          <li
+            className="menu-item "
+          >
+            <a
+              aria-current="page"
+              className=""
+              href="/"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              style={Object {}}
+            >
+              トップページ
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/concept"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              サロン紹介
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/menu"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              メニュー
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              商品紹介
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom2"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              おすすめ
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom1"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              ご予約
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/access"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              アクセス
+            </a>
+          </li>
+          <li
+            className="menu-item current_page_item"
+          >
+            <a
+              href="/concept1"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              成人式・七五三
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/contact"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              お問い合わせ
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/privacy"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              プライバシーポリシー
+            </a>
+          </li>
+          <li
+            className="menu-item "
+          >
+            <a
+              href="/custom3"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              成人式・スナップ集
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        className="sp-part-top sp-bread-crumb"
+        id="breadcrumb-list"
+      >
+        <div>
+          <a
+            aria-current="page"
+            className=""
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            style={Object {}}
+          >
+            トップ
+          </a>
+        </div>
+        <div>
+          ›
+        </div>
+        <div>
+          成人式・七五三
+        </div>
+      </div>
+    </div>
+    <div
+      id="main-inner"
+    >
+      <div
+        className="content-area"
+        id="primary"
+      >
+        <div
+          className="site-content sp-part-top sp-content page-concept1"
+          id="content"
+          role="main"
+        >
+          <header
+            className="entry-header sp-part-top sp-page-title"
+            id="sp-page-title-8"
+          >
+            <h1
+              className="entry-title"
+            >
+              成人式・七五三
+            </h1>
+          </header>
+          <article>
+            <div
+              className="sp-part-top sp-block-container"
+              id="page-content"
+            >
+              <h3
+                className="paragraph"
+              >
+                成人式
+              </h3>
+              <br />
+              <p
+                className="paragraph"
+              >
+                一度きりの特別な記念日。オリオンではプロのカメラマンによる撮影をサロン内で行っております。
+              </p>
+              <p
+                className="paragraph"
+              >
+                ヘア、メイク、着付け後すぐに撮影致しますので、最高の状態で思い出のショットが残せます。
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                ヘア・メイク・着付け・撮影　　 ￥　４５，０００（税抜）
+              </p>
+              <p
+                className="paragraph"
+              >
+                　　
+              </p>
+              <p
+                className="paragraph"
+              >
+                　　　　　　　　　　　　　　　※特典　　台紙付きフォト2枚（六つ切り）
+              </p>
+              <p
+                className="paragraph"
+              >
+                　　　　　　　　　　　　　　　　撮影したすべてのデーター入りCDプレゼント
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                ヘア・メイク・着付け　　　　　￥　３８，０００（税抜）　　
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                ※貸衣装（料金別途）も承っております。
+              </p>
+              <p
+                className="paragraph"
+              >
+                ※金額はお問い合わせください。
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="large paragraph"
+                style={
+                  Object {
+                    "color": "#e8034a",
+                  }
+                }
+              >
+                <u
+                  className="character"
+                  style={
+                    Object {
+                      "color": "#e60000",
+                    }
+                  }
+                >
+                  注：写真転載厳禁
+                </u>
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <br />
+              <a
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-14"
+                  src="/img/u-1t.jpg"
+                />
+              </a>
+              <br />
+              <a
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-15"
+                  src="/img/i-1.jpg"
+                />
+              </a>
+              <br />
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <a
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-16"
+                  src="/img/k-1t.jpg"
+                />
+              </a>
+              <hr />
+              <a
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-17"
+                  src="/img/m-1.jpg"
+                />
+              </a>
+              <h3
+                className="paragraph"
+              >
+                七五三
+              </h3>
+              <p
+                className="paragraph"
+              >
+                オリオンではサロンにてプロのカメラマンによる撮影会を開催いたします。
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="large paragraph"
+                style={
+                  Object {
+                    "color": "#2d2d9f",
+                  }
+                }
+              >
+                日程　１１月３日　(
+                <span
+                  className="character"
+                  style={
+                    Object {
+                      "color": "#e60000",
+                    }
+                  }
+                >
+                  祝
+                </span>
+                ）
+              </p>
+              <br />
+              <p
+                className="paragraph"
+              >
+                三歳　　　　　￥２８．０００（税抜）
+                <br />
+                五歳　　　　　￥２２．０００（税抜）
+                <br />
+                七歳　　　　　￥３５．０００（税抜）
+              </p>
+              <p
+                className="paragraph"
+              >
+                ヘア・メイク・着付け・撮影料込
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                特典
+              </p>
+              <p
+                className="paragraph"
+              >
+                CDデータ（スナップ写真・撮影したものすべて）
+              </p>
+              <p
+                className="paragraph"
+              >
+                台紙付き写真１枚（六つ切り）プレゼント　　　　　　　　　　
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                ※貸衣装（代金別途）も承っております。
+                <br />
+              </p>
+              <p
+                className="paragraph"
+              >
+                <br />
+                <br />
+              </p>
+              <p
+                className="paragraph"
+              >
+                当日以外のヘアメイク　着付けのご予約も承っております。
+                <br />
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                三歳　　　　　　￥２３．０００（税抜）
+                <br />
+                五歳　　　　　　￥１７．０００（税抜）
+                <br />
+                七歳　　　　　　￥３０．０００（税抜）
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                ヘア・メイク・着付け
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                ※貸衣装（代金別途）も承っております。
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="large paragraph"
+                style={
+                  Object {
+                    "color": "#e60000",
+                  }
+                }
+              >
+                <u
+                  className="character"
+                >
+                  注：写真転載厳禁
+                </u>
+                <br />
+                　　　　　　　　
+              </p>
+              　　　　　　　　　
+               
+              <a
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-18"
+                  src="/img/image33.jpg"
+                />
+              </a>
+              <a
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-19"
+                  src="/img/image34.jpg"
+                />
+              </a>
+              <a
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-20"
+                  src="/img/image35.jpg"
+                />
+              </a>
+              <a
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-21"
+                  src="/img/image32.jpg"
+                />
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div
+        className="sp-part-top sp-sidebar"
+        id="sidebar1"
+      >
+        <div
+          className="sp-part-top sp-button"
+          id="sp-button-1"
+        >
+          <a
+            href="https://ameblo.jp/teamorion/?frm_id=v.mypage-ameblo--myblog--blog"
+          >
+            ブログ
+          </a>
+        </div>
+        <div
+          className="sp-part-top sp-button"
+          id="sp-button-2"
+        >
+          <a
+            href="https://www.facebook.com/orionannex.orion"
+          >
+            Face Book
+          </a>
+        </div>
+        <div
+          className="sp-part-top sp-sns-button"
+          id="sp-sns-button-1"
+        >
+          <ul>
+            <li>
+              <iframe
+                allowtransparency="true"
+                frameBorder="0"
+                scrolling="no"
+                src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Forion-net.co.jp%2Fprivacy.html&layout=button_count&width=120&height=21&send=true&show_faces=true&share=false&action=like&colorscheme=light&font"
+                style={
+                  Object {
+                    "border": "none",
+                    "height": "21px",
+                    "overflow": "hidden",
+                    "width": "120px",
+                  }
+                }
+              />
+            </li>
+            <li>
+              <a
+                className="twitter-share-button"
+                data-count="horizontal"
+                data-lang="ja"
+                href="https://twitter.com/share"
+              >
+                Tweet
+              </a>
+              <script
+                charSet="utf-8"
+                src="https://platform.twitter.com/widgets.js"
+                type="text/javascript"
+              />
+            </li>
+            <li>
+              <a
+                href="https://line.me/R/msg/text/?%0D%0Ahttp%3A%2F%2Forion-net.co.jp%2Fprivacy.html"
+              >
+                <img
+                  alt=""
+                  height="20"
+                  src="/img/linebutton_horizontal.png"
+                  style={
+                    Object {
+                      "border": "none",
+                    }
+                  }
+                  width="82"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="site-footer sp-part-top sp-footer2"
+    id="colophon"
+    role="contentinfo"
+  >
+    <div
+      className="sp-part-top sp-footer-inner"
+      id="colophon-inner"
+    >
+      <nav
+        className="navigation-main sp-part-top sp-site-navigation minimal"
+        id="sp-site-navigation-2"
+        role="navigation"
+      >
+        <h1
+          className="menu-toggle"
+        >
+          メニュー
+        </h1>
+        <div
+          className="screen-reader-text skip-link"
+        >
+          <a
+            href="#content"
+            title="コンテンツへスキップ"
+          >
+            コンテンツへスキップ
+          </a>
+        </div>
+        <ul
+          id="menu-mainnav"
+        >
+          <li
+            className="menu-item"
+          >
+            <a
+              href="/privacy"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              プライバシーポリシー
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        className="sp-part-top sp-block-container"
+        id="sp-block-container-1"
+      >
+        <p
+          className="copyright paragraph"
+        >
+          Copyright © オリオン美容室, All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

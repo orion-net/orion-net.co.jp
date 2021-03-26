@@ -4,6 +4,19 @@ import "../../static/style.css"
 import { Helmet } from "react-helmet"
 import { messages } from "../messages"
 import { LinkNav } from "./LinkNav"
+import { Sidebar } from "./Sidebar"
+
+const Head = ({ pageTitle }) => (
+  <Helmet>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>{`オリオン美容室 | ${pageTitle}`}</title>
+  </Helmet>
+)
 
 const Header = () => (
   <header
@@ -62,50 +75,24 @@ const Footer = () => (
 
 export const Layout = ({ children, pageTitle, currentNav }) => (
   <>
-    <Helmet>
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/apple-touch-icon.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/favicon-32x32.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="/favicon-16x16.png"
-      />
-      <link rel="manifest" href="/site.webmanifest" />
-      <meta name="msapplication-TileColor" content="#da532c" />
-      <meta name="theme-color" content="#ffffff" />
-    </Helmet>
+    <Head pageTitle={pageTitle} />
     <div id="page" className="site">
       <Header />
       <div id="main" className="site-main sp-part-top sp-main">
         <div id="contenthead" className="sp-part-top sp-content-header">
-          <a style={{ display: "block" }}>
+          <Link to="/">
             <img
               id="sp-image-1"
               src="/img/top3.gif"
               className="sp-part-top sp-image"
             />
-          </a>
+          </Link>
           <nav
             id="sp-site-navigation-1"
             className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
             role="navigation"
           >
-            <h1 className="menu-toggle">メニュー</h1>
-            <div className="screen-reader-text skip-link">
-              <a title="コンテンツへスキップ" href="#content">
-                コンテンツへスキップ
-              </a>
-            </div>
+            <span className="menu-toggle" />
             <LinkNav {...currentNav} />
           </nav>
           <div id="breadcrumb-list" className="sp-part-top sp-bread-crumb">
@@ -116,7 +103,10 @@ export const Layout = ({ children, pageTitle, currentNav }) => (
             {pageTitle ? <div>{pageTitle}</div> : <></>}
           </div>
         </div>
-        {children}
+        <div id="main-inner">
+          {children}
+          <Sidebar />
+        </div>
       </div>
       <Footer />
     </div>

@@ -55,11 +55,12 @@ exports[`concept renders correctly 1`] = `
       id="contenthead"
     >
       <a
-        style={
-          Object {
-            "display": "block",
-          }
-        }
+        aria-current="page"
+        className=""
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        style={Object {}}
       >
         <img
           className="sp-part-top sp-image"
@@ -72,21 +73,9 @@ exports[`concept renders correctly 1`] = `
         id="sp-site-navigation-1"
         role="navigation"
       >
-        <h1
+        <span
           className="menu-toggle"
-        >
-          メニュー
-        </h1>
-        <div
-          className="screen-reader-text skip-link"
-        >
-          <a
-            href="#content"
-            title="コンテンツへスキップ"
-          >
-            コンテンツへスキップ
-          </a>
-        </div>
+        />
         <ul
           className="toggled-on"
           id="menu-mainnav"

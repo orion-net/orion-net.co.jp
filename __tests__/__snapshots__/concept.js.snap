@@ -240,287 +240,287 @@ exports[`concept renders correctly 1`] = `
           サロン紹介
         </div>
       </div>
+    </div>
+    <div
+      id="main-inner"
+    >
       <div
-        id="main-inner"
+        className="content-area"
+        id="primary"
       >
         <div
-          className="content-area"
-          id="primary"
+          className="site-content sp-part-top sp-content page-concept"
+          id="content"
+          role="main"
         >
-          <div
-            className="site-content sp-part-top sp-content page-concept"
-            id="content"
-            role="main"
+          <header
+            className="entry-header sp-part-top sp-page-title"
+            id="sp-page-title-2"
           >
-            <header
-              className="entry-header sp-part-top sp-page-title"
-              id="sp-page-title-2"
+            <h1
+              className="entry-title"
             >
-              <h1
-                className="entry-title"
+              サロン紹介
+            </h1>
+          </header>
+          <article>
+            <div
+              className="sp-part-top sp-block-container"
+              id="page-content"
+            >
+              <h3
+                className="paragraph"
               >
-                サロン紹介
-              </h1>
-            </header>
-            <article>
-              <div
-                className="sp-part-top sp-block-container"
-                id="page-content"
+                スタッフ
+              </h3>
+              <p
+                className="large paragraph"
               >
-                <h3
-                  className="paragraph"
-                >
-                  スタッフ
-                </h3>
-                <p
-                  className="large paragraph"
-                >
-                  <b
-                    className="character"
-                  >
-                    マネージャー：　武藤　夏代
-                  </b>
-                </p>
-                <p
-                  className="large paragraph"
-                >
-                   
-                </p>
-                <p
-                  className="paragraph"
-                >
-                   
-                </p>
-                <p
-                  className="large paragraph"
-                >
-                   
-                </p>
-                ○スタッフ紹介
-                <p
-                  className="large paragraph"
-                >
-                   
-                </p>
-                <a
-                  style={
-                    Object {
-                      "display": "block",
-                    }
-                  }
-                >
-                  <img
-                    className="sp-part-top sp-image"
-                    id="sp-image-8"
-                    src="/img/1496900727362.jpg"
-                  />
-                </a>
-                <br />
                 <b
                   className="character"
                 >
-                  武藤　大亮
+                  マネージャー：　武藤　夏代
                 </b>
-                <p
-                  className="paragraph"
-                >
-                  　
-                </p>
-                <a
-                  style={
-                    Object {
-                      "display": "block",
-                    }
+              </p>
+              <p
+                className="large paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="large paragraph"
+              >
+                 
+              </p>
+              ○スタッフ紹介
+              <p
+                className="large paragraph"
+              >
+                 
+              </p>
+              <a
+                style={
+                  Object {
+                    "display": "block",
                   }
-                >
-                  <img
-                    className="sp-part-top sp-image"
-                    id="sp-image-9"
-                    src="/img/1496901447498.jpg"
-                  />
-                </a>
-                <br />
-                <b
-                  className="character"
-                >
-                  武藤　圭佑
-                </b>
-                <p
-                  className="paragraph"
-                >
-                  　　
-                </p>
-                <h3
-                  className="paragraph"
-                >
-                  サロン
-                </h3>
-                <a
-                  style={
-                    Object {
-                      "display": "block",
-                    }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-8"
+                  src="/img/1496900727362.jpg"
+                />
+              </a>
+              <br />
+              <b
+                className="character"
+              >
+                武藤　大亮
+              </b>
+              <p
+                className="paragraph"
+              >
+                　
+              </p>
+              <a
+                style={
+                  Object {
+                    "display": "block",
                   }
-                >
-                  <img
-                    className="sp-part-top sp-image"
-                    id="sp-image-10"
-                    src="/img/securedownload3.jpg"
-                  />
-                </a>
-                <a
-                  style={
-                    Object {
-                      "display": "block",
-                    }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-9"
+                  src="/img/1496901447498.jpg"
+                />
+              </a>
+              <br />
+              <b
+                className="character"
+              >
+                武藤　圭佑
+              </b>
+              <p
+                className="paragraph"
+              >
+                　　
+              </p>
+              <h3
+                className="paragraph"
+              >
+                サロン
+              </h3>
+              <a
+                style={
+                  Object {
+                    "display": "block",
                   }
-                >
-                  <img
-                    className="sp-part-top sp-image"
-                    id="sp-image-11"
-                    src="/img/51.jpg"
-                  />
-                </a>
-                <br />
-                白を基調とした落ち着いた店内は、おくつろぎいただける空間です。
-                 
-                <br />
-                お客さまの髪質とご要望に合わせて、スタイルをご提案します。
-                <br />
-                <br />
-                <a
-                  style={
-                    Object {
-                      "display": "block",
-                    }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-10"
+                  src="/img/securedownload3.jpg"
+                />
+              </a>
+              <a
+                style={
+                  Object {
+                    "display": "block",
                   }
-                >
-                  <img
-                    className="sp-part-top sp-image"
-                    id="sp-image-12"
-                    src="/img/2.jpg"
-                  />
-                </a>
-                <p
-                  className="paragraph"
-                >
-                   
-                </p>
-                <br />
-                <a
-                  style={
-                    Object {
-                      "display": "block",
-                    }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-11"
+                  src="/img/51.jpg"
+                />
+              </a>
+              <br />
+              白を基調とした落ち着いた店内は、おくつろぎいただける空間です。
+               
+              <br />
+              お客さまの髪質とご要望に合わせて、スタイルをご提案します。
+              <br />
+              <br />
+              <a
+                style={
+                  Object {
+                    "display": "block",
                   }
-                >
-                  <img
-                    className="sp-part-top sp-image"
-                    id="sp-image-13"
-                    src="/img/4.jpg"
-                  />
-                </a>
-                <br />
-                180度にたおれるイスがございますので、ゆったりと施術がお受けになれます。
-                <hr />
-                <p
-                  className="paragraph"
-                >
-                   
-                </p>
-                <p
-                  className="paragraph"
-                >
-                   
-                </p>
-                <p
-                  className="paragraph"
-                >
-                   
-                </p>
-              </div>
-            </article>
-          </div>
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-12"
+                  src="/img/2.jpg"
+                />
+              </a>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <br />
+              <a
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              >
+                <img
+                  className="sp-part-top sp-image"
+                  id="sp-image-13"
+                  src="/img/4.jpg"
+                />
+              </a>
+              <br />
+              180度にたおれるイスがございますので、ゆったりと施術がお受けになれます。
+              <hr />
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+              <p
+                className="paragraph"
+              >
+                 
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div
+        className="sp-part-top sp-sidebar"
+        id="sidebar1"
+      >
+        <div
+          className="sp-part-top sp-button"
+          id="sp-button-1"
+        >
+          <a
+            href="https://ameblo.jp/teamorion/?frm_id=v.mypage-ameblo--myblog--blog"
+          >
+            ブログ
+          </a>
         </div>
         <div
-          className="sp-part-top sp-sidebar"
-          id="sidebar1"
+          className="sp-part-top sp-button"
+          id="sp-button-2"
         >
-          <div
-            className="sp-part-top sp-button"
-            id="sp-button-1"
+          <a
+            href="https://www.facebook.com/orionannex.orion"
           >
-            <a
-              href="https://ameblo.jp/teamorion/?frm_id=v.mypage-ameblo--myblog--blog"
-            >
-              ブログ
-            </a>
-          </div>
-          <div
-            className="sp-part-top sp-button"
-            id="sp-button-2"
-          >
-            <a
-              href="https://www.facebook.com/orionannex.orion"
-            >
-              Face Book
-            </a>
-          </div>
-          <div
-            className="sp-part-top sp-sns-button"
-            id="sp-sns-button-1"
-          >
-            <ul>
-              <li>
-                <iframe
-                  allowtransparency="true"
-                  frameBorder="0"
-                  scrolling="no"
-                  src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Forion-net.co.jp%2Fprivacy.html&layout=button_count&width=120&height=21&send=true&show_faces=true&share=false&action=like&colorscheme=light&font"
+            Face Book
+          </a>
+        </div>
+        <div
+          className="sp-part-top sp-sns-button"
+          id="sp-sns-button-1"
+        >
+          <ul>
+            <li>
+              <iframe
+                allowtransparency="true"
+                frameBorder="0"
+                scrolling="no"
+                src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Forion-net.co.jp%2Fprivacy.html&layout=button_count&width=120&height=21&send=true&show_faces=true&share=false&action=like&colorscheme=light&font"
+                style={
+                  Object {
+                    "border": "none",
+                    "height": "21px",
+                    "overflow": "hidden",
+                    "width": "120px",
+                  }
+                }
+              />
+            </li>
+            <li>
+              <a
+                className="twitter-share-button"
+                data-count="horizontal"
+                data-lang="ja"
+                href="https://twitter.com/share"
+              >
+                Tweet
+              </a>
+              <script
+                charSet="utf-8"
+                src="https://platform.twitter.com/widgets.js"
+                type="text/javascript"
+              />
+            </li>
+            <li>
+              <a
+                href="https://line.me/R/msg/text/?%0D%0Ahttp%3A%2F%2Forion-net.co.jp%2Fprivacy.html"
+              >
+                <img
+                  alt=""
+                  height="20"
+                  src="/img/linebutton_horizontal.png"
                   style={
                     Object {
                       "border": "none",
-                      "height": "21px",
-                      "overflow": "hidden",
-                      "width": "120px",
                     }
                   }
+                  width="82"
                 />
-              </li>
-              <li>
-                <a
-                  className="twitter-share-button"
-                  data-count="horizontal"
-                  data-lang="ja"
-                  href="https://twitter.com/share"
-                >
-                  Tweet
-                </a>
-                <script
-                  charSet="utf-8"
-                  src="https://platform.twitter.com/widgets.js"
-                  type="text/javascript"
-                />
-              </li>
-              <li>
-                <a
-                  href="https://line.me/R/msg/text/?%0D%0Ahttp%3A%2F%2Forion-net.co.jp%2Fprivacy.html"
-                >
-                  <img
-                    alt=""
-                    height="20"
-                    src="/img/linebutton_horizontal.png"
-                    style={
-                      Object {
-                        "border": "none",
-                      }
-                    }
-                    width="82"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

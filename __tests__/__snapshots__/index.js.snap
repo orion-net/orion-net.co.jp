@@ -217,6 +217,26 @@ exports[`index renders correctly 1`] = `
           </li>
         </ul>
       </nav>
+      <div
+        className="sp-part-top sp-bread-crumb"
+        id="breadcrumb-list"
+      >
+        <div>
+          <a
+            aria-current="page"
+            className=""
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            style={Object {}}
+          >
+            トップ
+          </a>
+        </div>
+        <div>
+          ›
+        </div>
+      </div>
     </div>
     <div
       id="main-inner"

@@ -172,7 +172,7 @@ exports[`404 renders correctly 1`] = `
             </a>
           </li>
           <li
-            className="menu-item current_page_item"
+            className="menu-item "
           >
             <a
               href="/concept1"
@@ -235,9 +235,6 @@ exports[`404 renders correctly 1`] = `
         </div>
         <div>
           ›
-        </div>
-        <div>
-          成人式・七五三
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import "../../static/style.css"
 import { Helmet } from "react-helmet"
 import { messages } from "../messages"
+import { LinkNav } from "./LinkNav"
 
 const Header = () => (
   <header
@@ -59,7 +60,7 @@ const Footer = () => (
   </footer>
 )
 
-export const Layout = ({ children }) => (
+export const Layout = ({ children, pageTitle, currentNav }) => (
   <>
     <Helmet>
       <link
@@ -85,7 +86,38 @@ export const Layout = ({ children }) => (
     </Helmet>
     <div id="page" className="site">
       <Header />
-      {children}
+      <div id="main" className="site-main sp-part-top sp-main">
+        <div id="contenthead" className="sp-part-top sp-content-header">
+          <a style={{ display: "block" }}>
+            <img
+              id="sp-image-1"
+              src="/img/top3.gif"
+              className="sp-part-top sp-image"
+            />
+          </a>
+          <nav
+            id="sp-site-navigation-1"
+            className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
+            role="navigation"
+          >
+            <h1 className="menu-toggle">メニュー</h1>
+            <div className="screen-reader-text skip-link">
+              <a title="コンテンツへスキップ" href="#content">
+                コンテンツへスキップ
+              </a>
+            </div>
+            <LinkNav {...currentNav} />
+          </nav>
+          <div id="breadcrumb-list" className="sp-part-top sp-bread-crumb">
+            <div>
+              <Link to="/">トップ</Link>
+            </div>
+            <div>›</div>
+            {pageTitle ? <div>{pageTitle}</div> : <></>}
+          </div>
+        </div>
+        {children}
+      </div>
       <Footer />
     </div>
   </>

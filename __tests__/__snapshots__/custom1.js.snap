@@ -150,7 +150,7 @@ exports[`custom1 renders correctly 1`] = `
             </a>
           </li>
           <li
-            className="menu-item "
+            className="menu-item current_page_item"
           >
             <a
               href="/custom1"

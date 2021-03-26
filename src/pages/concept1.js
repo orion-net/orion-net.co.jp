@@ -11,7 +11,7 @@ export default () => (
       <div id="masthead-inner" className="sp-part-top sp-header-inner">
         <div id="sp-site-branding2-1" className="sp-part-top sp-site-branding2">
           <h1 className="site-title sp-part-top sp-site-title" id=""><a href="index.html">ビルダーサロン</a></h1>
-          <h2 className="site-description sp-part-top sp-catchphrase" id="">Orionは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
+          <h2 className="site-description sp-part-top sp-catchphrase" id="">オリオンは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
           <div className="extra sp-part-top sp-site-branding-extra" style={{minHeight: "20px"}} id="sp-site-branding-extra-1"></div>
         </div>
       </div>
@@ -59,7 +59,7 @@ export default () => (
                 <p className="paragraph"> </p><a style={{display: "block"}}><img id="sp-image-16" src="/img/k-1t.jpg" className="sp-part-top sp-image"/></a>
                 <hr /><a style={{display: "block"}}><img id="sp-image-17" src="/img/m-1.jpg" className="sp-part-top sp-image"/></a>
                 <h3 className="paragraph">七五三</h3>
-                <p className="paragraph">orionではサロンにてプロのカメラマンによる撮影会を開催いたします。</p>
+                <p className="paragraph">オリオンではサロンにてプロのカメラマンによる撮影会を開催いたします。</p>
                 <p className="paragraph"> </p>
                 <p className="large paragraph" style={{color : "#2d2d9f"}}>日程　１１月３日　(<span className="character" style={{color : "#e60000"}}>祝</span>）</p><br />
                 <p className="paragraph">三歳　　　　　￥２８．０００（税抜）<br />

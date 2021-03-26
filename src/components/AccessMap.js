@@ -6,7 +6,7 @@ const zoom = 16
 
 const Message = () => (
   <>
-    Orion美容室<br />
+    オリオン美容室<br />
     <a target="_blank" href="https://www.google.com/maps?q=高津区久末 オリオン美容室">Google Mapsで開く</a>
   </>
 )

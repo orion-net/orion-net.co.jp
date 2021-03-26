@@ -11,7 +11,7 @@ const Header = () => (
     <div id="masthead-inner" className="sp-part-top sp-header-inner">
       <div id="sp-site-branding2-1" className="sp-part-top sp-site-branding2">
         <h1 className="site-title sp-part-top sp-site-title" id=""><a href="index.html">ビルダーサロン</a></h1>
-        <h2 className="site-description sp-part-top sp-catchphrase" id="">Orionは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
+        <h2 className="site-description sp-part-top sp-catchphrase" id="">オリオンは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
         <div className="extra sp-part-top sp-site-branding-extra" style={{minHeight: "20px"}} id="sp-site-branding-extra-1" />
       </div>
     </div>
@@ -64,7 +64,7 @@ const App = () => (
 
             <article>
               <div id="page-content" className="sp-part-top sp-block-container">
-                <h3 className="paragraph">Orionは、川崎市高津区久末にある美容院・ヘアーサロンです<br /></h3>
+                <h3 className="paragraph">オリオンは、川崎市高津区久末にある美容院・ヘアーサロンです<br /></h3>
 
                 <div style={{border: "solid 5px rgb(218, 74, 74)", borderRadius: "10px", testAlign: "center", padding: "18px"}}>
                   <b>⚠️大切なお知らせ⚠️</b><br /><br />
@@ -74,7 +74,7 @@ const App = () => (
                     <p>お客様に置かれましては、たいへんご不便をおかけしますが、ご理解・ご協力の程よろしくお願い申し上げます。</p>
                   </div>
                   <div style={{testAlign: "right"}}>
-                    <p>Orion美容室</p>
+                    <p>オリオン美容室</p>
                   </div>
                 </div>
 

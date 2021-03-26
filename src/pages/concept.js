@@ -10,7 +10,7 @@ const Header = () => (
     <div id="masthead-inner" className="sp-part-top sp-header-inner">
       <div id="sp-site-branding2-1" className="sp-part-top sp-site-branding2">
         <h1 className="site-title sp-part-top sp-site-title" id=""><a href="index.html">ビルダーサロン</a></h1>
-        <h2 className="site-description sp-part-top sp-catchphrase" id="">Orionは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
+        <h2 className="site-description sp-part-top sp-catchphrase" id="">オリオンは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
         <div className="extra sp-part-top sp-site-branding-extra" style={{minHeight: "20px"}} id="sp-site-branding-extra-1" />
       </div>
     </div>

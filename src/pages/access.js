@@ -12,7 +12,7 @@ export default () => (
       <div id="masthead-inner" className="sp-part-top sp-header-inner">
         <div id="sp-site-branding2-1" className="sp-part-top sp-site-branding2">
           <h1 className="site-title sp-part-top sp-site-title" id=""><a href="index.html">ビルダーサロン</a></h1>
-          <h2 className="site-description sp-part-top sp-catchphrase" id="">Orionは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
+          <h2 className="site-description sp-part-top sp-catchphrase" id="">オリオンは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
           <div className="extra sp-part-top sp-site-branding-extra" style={{minHeight: "20px"}} id="sp-site-branding-extra-1"></div>
         </div>
       </div>
@@ -45,7 +45,7 @@ export default () => (
                 <h3 className="paragraph">周辺地図</h3>
                 <AccessMap />
                 <br />
-                <p className="paragraph">ORION<br />
+                <p className="paragraph">オリオン美容室<br />
                 〒213-0026　神奈川県川崎市高津区久末２５３<br />
                 TEL.044-766-1610　　ﾌﾘｰﾀﾞｲﾔﾙ .0800-800-1612</p>
                 <p className="paragraph"> </p>

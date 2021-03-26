@@ -11,7 +11,7 @@ export default () => (
       <div id="masthead-inner" className="sp-part-top sp-header-inner">
         <div id="sp-site-branding2-1" className="sp-part-top sp-site-branding2">
           <h1 className="site-title sp-part-top sp-site-title" id=""><a href="index.html">ビルダーサロン</a></h1>
-          <h2 className="site-description sp-part-top sp-catchphrase" id="">Orionは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
+          <h2 className="site-description sp-part-top sp-catchphrase" id="">オリオンは川崎市高津区久末の美容院・ヘアーサロンです。</h2>
           <div className="extra sp-part-top sp-site-branding-extra" style={{minHeight: "20px"}} id="sp-site-branding-extra-1"></div>
         </div>
       </div>
@@ -40,7 +40,7 @@ export default () => (
             </header>
             <article>
               <div id="page-content" className="sp-part-top sp-block-container">
-                <p className="large paragraph">ORION（以下当店）では、個人情報に関する法令およびその他の規範を遵守し、</p>
+                <p className="large paragraph">オリオン（以下当店）では、個人情報に関する法令およびその他の規範を遵守し、</p>
                 <p className="large paragraph">お客様の大切な個人情報の保護に万全を尽くします。</p>
                 <h3 className="paragraph">個人情報の収集について</h3>
                 <p className="paragraph">当店では、次のような場合に必要な範囲で個人情報を収集することがあります。</p>
@@ -71,7 +71,7 @@ export default () => (
                 <hr />
                 <h3 className="paragraph">個人情報保護に関するお問い合わせ先</h3>
                 <p className="paragraph">TEL.FAX 044-766-1610　ﾌﾘｰﾀﾞｲﾔﾙ.080-0800-1612</p>
-                <p className="paragraph">ORION　　代表　　武藤　夏代</p>
+                <p className="paragraph">オリオン美容室　　代表　　武藤　夏代</p>
               </div>
             </article>
           </div>

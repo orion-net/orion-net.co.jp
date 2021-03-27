@@ -5,47 +5,6 @@ exports[`404 renders correctly 1`] = `
   className="site"
   id="page"
 >
-  <header
-    className="site-header sp-part-top sp-header2"
-    id="masthead"
-    role="banner"
-  >
-    <div
-      className="sp-part-top sp-header-inner"
-      id="masthead-inner"
-    >
-      <div
-        className="sp-part-top sp-site-branding2"
-        id="sp-site-branding2-1"
-      >
-        <h1
-          className="site-title sp-part-top sp-site-title"
-          id=""
-        >
-          <a
-            href="index.html"
-          >
-            ビルダーサロン
-          </a>
-        </h1>
-        <h2
-          className="site-description sp-part-top sp-catchphrase"
-          id=""
-        >
-          オリオンは川崎市高津区久末の美容院・ヘアーサロンです。
-        </h2>
-        <div
-          className="extra sp-part-top sp-site-branding-extra"
-          id="sp-site-branding-extra-1"
-          style={
-            Object {
-              "minHeight": "20px",
-            }
-          }
-        />
-      </div>
-    </div>
-  </header>
   <div
     className="site-main sp-part-top sp-main"
     id="main"

@@ -62,11 +62,9 @@ exports[`custom2 renders correctly 1`] = `
         onMouseEnter={[Function]}
         style={Object {}}
       >
-        <img
-          className="sp-part-top sp-image"
-          id="sp-image-1"
-          src="/img/top3.gif"
-        />
+        <img>
+          Mocked StaticImage component
+        </img>
       </a>
       <nav
         className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
@@ -277,11 +275,9 @@ exports[`custom2 renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-30"
-                  src="/img/IMG_4.JPG"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <p
                 className="large paragraph"
@@ -546,11 +542,9 @@ exports[`custom2 renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-31"
-                  src="/img/IMG_1857.JPG"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <p
                 className="paragraph"
@@ -945,11 +939,9 @@ exports[`custom2 renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-32"
-                  src="/img/image30.JPG"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <p
                 className="paragraph"
@@ -1134,11 +1126,9 @@ exports[`custom2 renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-33"
-                  src="/img/image27.JPG"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <p
                 className="paragraph"
@@ -1345,11 +1335,9 @@ exports[`custom2 renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-34"
-                  src="/img/image29.JPG"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <p
                 className="large paragraph"

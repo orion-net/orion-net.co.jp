@@ -62,11 +62,9 @@ exports[`custom3 renders correctly 1`] = `
         onMouseEnter={[Function]}
         style={Object {}}
       >
-        <img
-          className="sp-part-top sp-image"
-          id="sp-image-1"
-          src="/img/top3.gif"
-        />
+        <img>
+          Mocked StaticImage component
+        </img>
       </a>
       <nav
         className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
@@ -278,11 +276,9 @@ exports[`custom3 renders correctly 1`] = `
               }
             }
           >
-            <img
-              className="sp-part-top sp-image"
-              id="sp-image-35"
-              src="/img/image56.jpg"
-            />
+            <img>
+              Mocked StaticImage component
+            </img>
           </a>
           <a
             style={
@@ -291,11 +287,9 @@ exports[`custom3 renders correctly 1`] = `
               }
             }
           >
-            <img
-              className="sp-part-top sp-image"
-              id="sp-image-36"
-              src="/img/image57.jpg"
-            />
+            <img>
+              Mocked StaticImage component
+            </img>
           </a>
           <article>
             <div
@@ -309,11 +303,9 @@ exports[`custom3 renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-37"
-                  src="/img/image50.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
             </div>
           </article>
@@ -324,11 +316,9 @@ exports[`custom3 renders correctly 1`] = `
               }
             }
           >
-            <img
-              className="sp-part-top sp-image"
-              id="sp-image-38"
-              src="/img/image51.jpg"
-            />
+            <img>
+              Mocked StaticImage component
+            </img>
           </a>
           <a
             style={
@@ -337,11 +327,9 @@ exports[`custom3 renders correctly 1`] = `
               }
             }
           >
-            <img
-              className="sp-part-top sp-image"
-              id="sp-image-39"
-              src="/img/image52.jpg"
-            />
+            <img>
+              Mocked StaticImage component
+            </img>
           </a>
           <a
             style={
@@ -350,11 +338,9 @@ exports[`custom3 renders correctly 1`] = `
               }
             }
           >
-            <img
-              className="sp-part-top sp-image"
-              id="sp-image-40"
-              src="/img/collage_photocat18.jpg"
-            />
+            <img>
+              Mocked StaticImage component
+            </img>
           </a>
           <a
             style={
@@ -363,11 +349,9 @@ exports[`custom3 renders correctly 1`] = `
               }
             }
           >
-            <img
-              className="sp-part-top sp-image"
-              id="sp-image-41"
-              src="/img/image53.jpg"
-            />
+            <img>
+              Mocked StaticImage component
+            </img>
           </a>
           <a
             style={
@@ -376,11 +360,9 @@ exports[`custom3 renders correctly 1`] = `
               }
             }
           >
-            <img
-              className="sp-part-top sp-image"
-              id="sp-image-42"
-              src="/img/image58.jpg"
-            />
+            <img>
+              Mocked StaticImage component
+            </img>
           </a>
           <a
             style={
@@ -389,11 +371,9 @@ exports[`custom3 renders correctly 1`] = `
               }
             }
           >
-            <img
-              className="sp-part-top sp-image"
-              id="sp-image-43"
-              src="/img/image59.jpg"
-            />
+            <img>
+              Mocked StaticImage component
+            </img>
           </a>
         </div>
       </div>

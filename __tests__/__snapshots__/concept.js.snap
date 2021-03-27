@@ -62,11 +62,9 @@ exports[`concept renders correctly 1`] = `
         onMouseEnter={[Function]}
         style={Object {}}
       >
-        <img
-          className="sp-part-top sp-image"
-          id="sp-image-1"
-          src="/img/top3.gif"
-        />
+        <img>
+          Mocked StaticImage component
+        </img>
       </a>
       <nav
         className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
@@ -299,11 +297,9 @@ exports[`concept renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-8"
-                  src="/img/1496900727362.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <br />
               <b
@@ -323,11 +319,9 @@ exports[`concept renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-9"
-                  src="/img/1496901447498.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <br />
               <b
@@ -352,11 +346,9 @@ exports[`concept renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-10"
-                  src="/img/securedownload3.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <a
                 style={
@@ -365,11 +357,9 @@ exports[`concept renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-11"
-                  src="/img/51.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <br />
               白を基調とした落ち着いた店内は、おくつろぎいただける空間です。
@@ -385,11 +375,9 @@ exports[`concept renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-12"
-                  src="/img/2.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <p
                 className="paragraph"
@@ -404,11 +392,9 @@ exports[`concept renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-13"
-                  src="/img/4.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <br />
               180度にたおれるイスがございますので、ゆったりと施術がお受けになれます。

@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import "../../static/style.css"
 import { Layout } from "../components/Layout"
 
@@ -28,9 +29,13 @@ const Main = () => (
             ○スタッフ紹介
             <p className="large paragraph"> </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-8"
-                src="/img/1496900727362.jpg"
+                alt="sp-image-8"
+                layout="fixed"
+                width={228}
+                height={302}
+                src="../../static/img/1496900727362.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -38,9 +43,13 @@ const Main = () => (
             <b className="character">武藤　大亮</b>
             <p className="paragraph">　</p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-9"
-                src="/img/1496901447498.jpg"
+                alt="sp-image-9"
+                layout="fixed"
+                width={228}
+                height={302}
+                src="../../static/img/1496901447498.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -49,16 +58,18 @@ const Main = () => (
             <p className="paragraph">　　</p>
             <h3 className="paragraph">サロン</h3>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-10"
-                src="/img/securedownload3.jpg"
+                alt="sp-image-10"
+                src="../../static/img/securedownload3.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-11"
-                src="/img/51.jpg"
+                alt="sp-image-11"
+                src="../../static/img/51.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -69,18 +80,20 @@ const Main = () => (
             <br />
             <br />
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-12"
-                src="/img/2.jpg"
+                alt="sp-image-12"
+                src="../../static/img/2.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <p className="paragraph"> </p>
             <br />
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-13"
-                src="/img/4.jpg"
+                alt="sp-image-13"
+                src="../../static/img/4.jpg"
                 className="sp-part-top sp-image"
               />
             </a>

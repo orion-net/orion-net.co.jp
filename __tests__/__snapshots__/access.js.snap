@@ -62,11 +62,9 @@ exports[`access renders correctly 1`] = `
         onMouseEnter={[Function]}
         style={Object {}}
       >
-        <img
-          className="sp-part-top sp-image"
-          id="sp-image-1"
-          src="/img/top3.gif"
-        />
+        <img>
+          Mocked StaticImage component
+        </img>
       </a>
       <nav
         className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"

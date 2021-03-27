@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import { Layout } from "../components/Layout"
 import "../../static/style.css"
 
@@ -25,9 +26,10 @@ const Main = () => (
             <br />
             <br />
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-30"
-                src="/img/IMG_4.JPG"
+                alt="sp-image-30"
+                src="../../static/img/IMG_4.JPG"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -169,9 +171,10 @@ const Main = () => (
             </h1>
             <p className="paragraph"> </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-31"
-                src="/img/IMG_1857.JPG"
+                alt="sp-image-31"
+                src="../../static/img/IMG_1857.JPG"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -327,9 +330,10 @@ const Main = () => (
             <h1 className="paragraph">F.プロテクト フォルムキーパー</h1>
             <p className="paragraph"> </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-32"
-                src="/img/image30.JPG"
+                alt="sp-image-32"
+                src="../../static/img/image30.JPG"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -408,9 +412,10 @@ const Main = () => (
               　　MIRABELLE FIRST
             </h1>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-33"
-                src="/img/image27.JPG"
+                alt="sp-image-33"
+                src="../../static/img/image27.JPG"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -508,9 +513,10 @@ const Main = () => (
               <br />
             </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-34"
-                src="/img/image29.JPG"
+                alt="sp-image-34"
+                src="../../static/img/image29.JPG"
                 className="sp-part-top sp-image"
               />
             </a>

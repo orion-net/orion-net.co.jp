@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import "../../static/style.css"
 import { Helmet } from "react-helmet"
@@ -81,9 +82,10 @@ export const Layout = ({ children, pageTitle, currentNav }) => (
       <div id="main" className="site-main sp-part-top sp-main">
         <div id="contenthead" className="sp-part-top sp-content-header">
           <Link to="/">
-            <img
+            <StaticImage
               id="sp-image-1"
-              src="/img/top3.gif"
+              alt="sp-image-1"
+              src="../../static/img/top3.gif"
               className="sp-part-top sp-image"
             />
           </Link>

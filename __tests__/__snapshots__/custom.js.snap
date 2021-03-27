@@ -62,11 +62,9 @@ exports[`custom renders correctly 1`] = `
         onMouseEnter={[Function]}
         style={Object {}}
       >
-        <img
-          className="sp-part-top sp-image"
-          id="sp-image-1"
-          src="/img/top3.gif"
-        />
+        <img>
+          Mocked StaticImage component
+        </img>
       </a>
       <nav
         className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
@@ -358,11 +356,9 @@ exports[`custom renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-22"
-                  src="/img/img_01.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <br />
               <h1
@@ -423,11 +419,9 @@ exports[`custom renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-23"
-                  src="/img/image21.JPG"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <br />
               <p
@@ -497,11 +491,9 @@ exports[`custom renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-24"
-                  src="/img/image25.JPG"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <p
                 className="paragraph"
@@ -570,11 +562,9 @@ exports[`custom renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-25"
-                  src="/img/img_1.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <p
                 className="paragraph"
@@ -653,11 +643,9 @@ exports[`custom renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-26"
-                  src="/img/image26.JPG"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <p
                 className="paragraph"
@@ -762,11 +750,9 @@ exports[`custom renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-27"
-                  src="/img/sore.JPG"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <h1
                 className="paragraph"
@@ -904,11 +890,9 @@ exports[`custom renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-28"
-                  src="/img/image19.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
               <p
                 className="paragraph"
@@ -952,11 +936,9 @@ exports[`custom renders correctly 1`] = `
                   }
                 }
               >
-                <img
-                  className="sp-part-top sp-image"
-                  id="sp-image-29"
-                  src="/img/image20.jpg"
-                />
+                <img>
+                  Mocked StaticImage component
+                </img>
               </a>
             </div>
           </article>

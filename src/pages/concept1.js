@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import "../../static/style.css"
 import { Layout } from "../components/Layout"
 
@@ -53,34 +54,38 @@ const Main = () => (
             <p className="paragraph"> </p>
             <br />
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-14"
-                src="/img/u-1t.jpg"
+                alt="sp-image-14"
+                src="../../static/img/u-1t.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <br />
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-15"
-                src="/img/i-1.jpg"
+                alt="sp-image-15"
+                src="../../static/img/i-1.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <br />
             <p className="paragraph"> </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-16"
-                src="/img/k-1t.jpg"
+                alt="sp-image-16"
+                src="../../static/img/k-1t.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <hr />
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-17"
-                src="/img/m-1.jpg"
+                alt="sp-image-17"
+                src="../../static/img/m-1.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -145,30 +150,34 @@ const Main = () => (
             </p>
             　　　　　　　　　{" "}
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-18"
-                src="/img/image33.jpg"
+                alt="sp-image-18"
+                src="../../static/img/image33.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-19"
-                src="/img/image34.jpg"
+                alt="sp-image-19"
+                src="../../static/img/image34.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-20"
-                src="/img/image35.jpg"
+                alt="sp-image-20"
+                src="../../static/img/image35.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-21"
-                src="/img/image32.jpg"
+                alt="sp-image-21"
+                src="../../static/img/image32.jpg"
                 className="sp-part-top sp-image"
               />
             </a>

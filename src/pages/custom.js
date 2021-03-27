@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import "../../static/style.css"
 import { Layout } from "../components/Layout"
 
@@ -66,9 +67,13 @@ const Main = () => (
               <br />
             </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-22"
-                src="/img/img_01.jpg"
+                alt="sp-image-22"
+                layout="fixed"
+                width={200}
+                height={200}
+                src="../../static/img/img_01.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -101,9 +106,13 @@ const Main = () => (
               <br />
             </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-23"
-                src="/img/image21.JPG"
+                alt="sp-image-23"
+                layout="fixed"
+                width={234}
+                height={312}
+                src="../../static/img/image21.JPG"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -136,9 +145,13 @@ const Main = () => (
               ご使用前によくふってから500円玉大をとり、朝晩のお手入れにたっぷりとお使い下さい。乾燥の気になる部分には何度か重ね塗りしてください。
             </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-24"
-                src="/img/image25.JPG"
+                alt="sp-image-24"
+                layout="fixed"
+                width={237}
+                height={268}
+                src="../../static/img/image25.JPG"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -170,9 +183,13 @@ const Main = () => (
               朝晩のお手入れの際、ローションを塗ったあとにパール1個分を目安にお顔全体にのばします。目元や口元など乾燥が気になる部分には、たっぷりとお使い下さい。
             </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-25"
-                src="/img/img_1.jpg"
+                alt="sp-image-25"
+                layout="fixed"
+                width={153}
+                height={107}
+                src="../../static/img/img_1.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -208,9 +225,13 @@ const Main = () => (
               目元や口元など乾燥が気になる部分には、たっぷりとお使い下さい。
             </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-26"
-                src="/img/image26.JPG"
+                alt="sp-image-26"
+                layout="fixed"
+                width={282}
+                height={267}
+                src="../../static/img/image26.JPG"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -257,9 +278,13 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-27"
-                src="/img/sore.JPG"
+                alt="sp-image-27"
+                layout="fixed"
+                width={257}
+                height={346}
+                src="../../static/img/sore.JPG"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -322,9 +347,13 @@ const Main = () => (
             <p className="paragraph">　○　１５種類以上の美容成分配合</p>
             <p className="paragraph"> </p>
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-28"
-                src="/img/image19.jpg"
+                alt="sp-image-28"
+                layout="fixed"
+                width={262}
+                height={171}
+                src="../../static/img/image19.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
@@ -347,9 +376,13 @@ const Main = () => (
             </p>
             <br />
             <a style={{ display: "block" }}>
-              <img
+              <StaticImage
                 id="sp-image-29"
-                src="/img/image20.jpg"
+                alt="sp-image-29"
+                layout="fixed"
+                width={153}
+                height={147}
+                src="../../static/img/image20.jpg"
                 className="sp-part-top sp-image"
               />
             </a>

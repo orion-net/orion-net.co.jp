@@ -23,25 +23,6 @@ const Head = ({ pageTitle }) => (
   </Helmet>
 )
 
-const Header = () => (
-  <header
-    id="masthead"
-    className="site-header sp-part-top sp-header2"
-    role="banner"
-  >
-    <div id="masthead-inner" className="sp-part-top sp-header-inner">
-      <div id="sp-site-branding2-1" className="sp-part-top sp-site-branding2">
-        <div className="site-title sp-part-top sp-site-title" />
-        <div
-          className="extra sp-part-top sp-site-branding-extra"
-          style={{ minHeight: "20px" }}
-          id="sp-site-branding-extra-1"
-        />
-      </div>
-    </div>
-  </header>
-)
-
 const Footer = () => (
   <footer
     id="colophon"
@@ -77,7 +58,6 @@ export const Layout = ({ children, pageTitle, currentNav }) => (
   <>
     <Head pageTitle={pageTitle} />
     <div id="page" className="site">
-      <Header />
       <div id="main" className="site-main sp-part-top sp-main">
         <div id="contenthead" className="sp-part-top sp-content-header">
           <Link to="/">

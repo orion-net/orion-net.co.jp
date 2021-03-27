@@ -2869,12 +2869,15 @@ ul{
   }
 
   #sp-image-1{
+    display: block;
     margin-top : 0px;
     margin-left : auto;
     margin-right : auto;
     margin-bottom : 0px;
-    width : 938px;
-    height : 389px;
+  }
+
+  .gatsby-image-wrapper.sp-part-top.sp-image {
+    margin: 0 auto;
   }
 
   #sp-image-10{

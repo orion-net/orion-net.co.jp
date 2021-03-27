@@ -85,7 +85,10 @@ export const Layout = ({ children, pageTitle, currentNav }) => (
             <StaticImage
               id="sp-image-1"
               alt="sp-image-1"
-              src="../../static/img/top3.gif"
+              src="../../static/img/top3.png"
+              layout="fixed"
+              width={800}
+              height={400}
               className="sp-part-top sp-image"
             />
           </Link>

@@ -1,3 +1,4 @@
 jest.config.js
 jest-preprocess.js
 loadershim.js
+gatsby-config.js

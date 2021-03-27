@@ -5082,6 +5082,11 @@ destroy@~1.0.4:
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
 
+destyle.css@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/destyle.css/-/destyle.css-2.0.2.tgz#62ab5aff32ce527b7fa624aab36d1c11a86b6011"
+  integrity sha512-w2xDMPePSAdSuz0h7Ad0m4QITlF1iG4U+0C0Y6Z5w05IBUHYOP3p7QyiZcc3OY+NcJiXBPgfARUsc5zfCGoahA==
+
 detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"

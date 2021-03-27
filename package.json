@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "destyle.css": "^2.0.2",
     "gatsby": "^3.1.2",
     "gatsby-plugin-image": "^1.1.2",
     "gatsby-plugin-react-helmet": "^4.1.0",

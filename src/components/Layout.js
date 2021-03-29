@@ -1,98 +1,73 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
-import "../../static/style.css"
 import { Helmet } from "react-helmet"
-import { messages } from "../messages"
 import { LinkNav } from "./LinkNav"
 import { Sidebar } from "./Sidebar"
+import "../../static/style.scss"
+import { Footer } from "./Footer"
 
-const Head = ({ pageTitle }) => (
-  <Helmet>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta
-      name="description"
-      content="オリオンは川崎市高津区久末の美容院・ヘアーサロンです。"
-    />
-    <title>{`オリオン美容室 | ${pageTitle}`}</title>
-  </Helmet>
-)
-
-const Footer = () => (
-  <footer
-    id="colophon"
-    className="site-footer sp-part-top sp-footer2"
-    role="contentinfo"
-  >
-    <div id="colophon-inner" className="sp-part-top sp-footer-inner">
-      <nav
-        id="sp-site-navigation-2"
-        className="navigation-main sp-part-top sp-site-navigation minimal"
-        role="navigation"
-      >
-        <h1 className="menu-toggle">メニュー</h1>
-        <div className="screen-reader-text skip-link">
-          <a title="コンテンツへスキップ" href="#content">
-            コンテンツへスキップ
-          </a>
-        </div>
-        <ul id="menu-mainnav">
-          <li className="menu-item">
-            <Link to="/privacy">プライバシーポリシー</Link>
-          </li>
-        </ul>
-      </nav>
-      <div id="sp-block-container-1" className="sp-part-top sp-block-container">
-        <p className="copyright paragraph">{messages.copyright}</p>
-      </div>
-    </div>
-  </footer>
-)
-
-export const Layout = ({ children, pageTitle, currentNav }) => (
+const WithHelmet = ({ children, pageTitle }) => (
   <>
-    <Head pageTitle={pageTitle} />
-    <div id="page" className="site">
-      <div id="main" className="site-main sp-part-top sp-main">
-        <div id="contenthead" className="sp-part-top sp-content-header">
-          <Link to="/">
-            <StaticImage
-              id="sp-image-1"
-              alt="sp-image-1"
-              src="../../static/img/top3.png"
-              layout="fixed"
-              width={800}
-              height={400}
-              className="sp-part-top sp-image"
-            />
-          </Link>
-          <nav
-            id="sp-site-navigation-1"
-            className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
-            role="navigation"
-          >
-            <span className="menu-toggle" />
-            <LinkNav {...currentNav} />
-          </nav>
-          <div id="breadcrumb-list" className="sp-part-top sp-bread-crumb">
-            <div>
-              <Link to="/">トップ</Link>
-            </div>
-            <div>›</div>
-            {pageTitle ? <div>{pageTitle}</div> : <></>}
+    <Helmet>
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/apple-touch-icon.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="/favicon-16x16.png"
+      />
+      <link rel="manifest" href="/site.webmanifest" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="msapplication-TileColor" content="#da532c" />
+      <meta name="theme-color" content="#ffffff" />
+      <meta
+        name="description"
+        content="オリオンは川崎市高津区久末の美容院・ヘアーサロンです。"
+      />
+      <title>{`オリオン美容室 | ${pageTitle}`}</title>
+    </Helmet>
+    {children}
+  </>
+)
+
+const useHamburger = initial => {
+  const [isOpened, setIsOpened] = React.useState(initial)
+
+  return {
+    toggle: () => setIsOpened(!isOpened),
+    close: () => setIsOpened(false),
+    class: isOpened ? "opened" : "closed",
+  }
+}
+
+export const Layout = ({ children, pageTitle, currentNav }) => {
+  const hamburger = useHamburger(false)
+
+  return (
+    <WithHelmet pageTitle={pageTitle}>
+      <LinkNav {...currentNav} hamburger={hamburger} />
+      <div className="layout">
+        <div onClick={hamburger.close}>
+          <div className="logo">
+            <Link to="/">
+              <img alt="オリオン美容室のトップ" src="/img/top3.png" />
+            </Link>
           </div>
-        </div>
-        <div id="main-inner">
-          {children}
+          <div className="article-wrapper">{children}</div>
           <Sidebar />
         </div>
       </div>
       <Footer />
-    </div>
-  </>
-)
+    </WithHelmet>
+  )
+}

@@ -1,927 +1,748 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`custom renders correctly 1`] = `
-<div
-  className="site"
-  id="page"
->
+Array [
   <div
-    className="site-main sp-part-top sp-main"
-    id="main"
+    className="hamburger-menu"
   >
     <div
-      className="sp-part-top sp-content-header"
-      id="contenthead"
+      className="bar-wrapper closed"
+      onClick={[Function]}
     >
-      <a
-        aria-current="page"
-        className=""
-        href="/"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-        style={Object {}}
-      >
-        <img>
-          Mocked StaticImage component
-        </img>
-      </a>
-      <nav
-        className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
-        id="sp-site-navigation-1"
-        role="navigation"
-      >
-        <span
-          className="menu-toggle"
-        />
-        <ul
-          className="toggled-on"
-          id="menu-mainnav"
-        >
-          <li
-            className="menu-item "
-          >
-            <a
-              aria-current="page"
-              className=""
-              href="/"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-              style={Object {}}
-            >
-              トップページ
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/concept"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              サロン紹介
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/menu"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              メニュー
-            </a>
-          </li>
-          <li
-            className="menu-item current_page_item"
-          >
-            <a
-              href="/custom"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              商品紹介
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/custom2"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              おすすめ
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/custom1"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              ご予約
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/access"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              アクセス
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/concept1"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              成人式・七五三
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/contact"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              お問い合わせ
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/privacy"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              プライバシーポリシー
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/custom3"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              成人式・スナップ集
-            </a>
-          </li>
-        </ul>
-      </nav>
       <div
-        className="sp-part-top sp-bread-crumb"
-        id="breadcrumb-list"
+        className="bar bar0"
+      />
+      <div
+        className="bar bar1"
+      />
+      <div
+        className="bar bar2"
+      />
+    </div>
+    <ul
+      className="navbar closed"
+      onClick={[Function]}
+    >
+      <li
+        className=""
       >
-        <div>
-          <a
-            aria-current="page"
-            className=""
-            href="/"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            style={Object {}}
+        <a
+          aria-current="page"
+          className=""
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          style={Object {}}
+        >
+          トップページ
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/concept"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          サロン紹介
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/menu"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          メニュー
+        </a>
+      </li>
+      <li
+        className="current_page_item"
+      >
+        <a
+          href="/custom"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          商品紹介
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/custom2"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          おすすめ
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/custom1"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ご予約
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/access"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          アクセス
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/concept1"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          成人式・七五三
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/contact"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          お問い合わせ
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/privacy"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          プライバシーポリシー
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/custom3"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          成人式・スナップ集
+        </a>
+      </li>
+    </ul>
+  </div>,
+  <div
+    className="layout"
+  >
+    <div
+      onClick={[Function]}
+    >
+      <div
+        className="logo"
+      >
+        <a
+          aria-current="page"
+          className=""
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          style={Object {}}
+        >
+          <img
+            alt="オリオン美容室のトップ"
+            src="/img/top3.png"
+          />
+        </a>
+      </div>
+      <div
+        className="article-wrapper"
+      >
+        <h1
+          className="entry-title"
+        >
+          商品紹介
+        </h1>
+        <h2>
+          <span
+            style={
+              Object {
+                "color": "#1c1c64",
+              }
+            }
           >
-            トップ
+            『ラ・プレシア シリーズ』
+          </span>
+        </h2>
+        <div
+          className="product-item"
+        >
+          <h2>
+            <span
+              style={
+                Object {
+                  "color": "#ce3348",
+                }
+              }
+            >
+              ラ・プレシア　デュー
+            </span>
+          </h2>
+          <p
+            className="large paragraph"
+          >
+            <b
+              style={
+                Object {
+                  "color": "#004000",
+                }
+              }
+            >
+              ○プラセンタデュー100
+            </b>
+            　【プラセンタ美容液】
+          </p>
+          <p>
+            <br />
+            プラセンタとは胎盤のことで、胎児の発育に必要不可欠な組織と言われています。
+          </p>
+          <p>
+            プラセンタエキスは、この組織から抽出した天然美容液です。
+          </p>
+          <p>
+            プラセンタエキスには10個もの美容効果があり、どんなお肌の方にも最適な多機能天然原液。
+          </p>
+          <p>
+            多くの有効成分と成長因子の働きにより、細胞レベルで美肌に導きます。
+            <br />
+          </p>
+          <p>
+            30ml ￥9,000(税別)
+            <br />
+          </p>
+          <p>
+             
+          </p>
+          <p>
+            ■使用方法
+            <br />
+            洗顔後の清潔なお肌にお使いください。
+          </p>
+          <p>
+            気になる部分にはマッサージするように、2～3回重ね塗りしてください。
+            <br />
+          </p>
+          <p>
+            <br />
+          </p>
+          <a
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <img>
+              Mocked StaticImage component
+            </img>
+          </a>
+          <br />
+        </div>
+        <div
+          className="product-item"
+        >
+          <h2>
+            <span
+              style={
+                Object {
+                  "color": "#ce3348",
+                }
+              }
+            >
+              ラ・プレシア　スキンケア
+            </span>
+          </h2>
+          <p
+            className="large paragraph"
+          >
+            <b
+              style={
+                Object {
+                  "color": "#004000",
+                }
+              }
+            >
+              ○ラ・プレシア　クレンジングウォータージェル U
+            </b>
+          </p>
+          <p>
+            <br />
+            【プラセンタエキス　配合クレンジング】
+            <br />
+            クレンジングでくすみ（角質からくる汚れ）のないお肌へ。
+            <br />
+          </p>
+          <p>
+            150mL　￥5,000(税別)
+            <br />
+          </p>
+          <p>
+            ■使用方法
+            <br />
+            500円玉大を手のひらにとり、お顔全体をマッサージするようによくなじませてください。全体になじみましたら、ぬるま湯等でよく洗い流してください。
+            <br />
+          </p>
+          <a
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <img>
+              Mocked StaticImage component
+            </img>
+          </a>
+          <br />
+          <p
+            className="large paragraph"
+            style={
+              Object {
+                "color": "#004000",
+              }
+            }
+          >
+             
+          </p>
+          <p
+            className="large paragraph"
+            style={
+              Object {
+                "color": "#004000",
+              }
+            }
+          >
+             
+          </p>
+          <p
+            className="large paragraph"
+            style={
+              Object {
+                "color": "#004000",
+              }
+            }
+          >
+            <b>
+              ○ラ・プレシア　ローション U
+            </b>
+          </p>
+          <p>
+            【プラセンタエキス　配合二層式ローション】
+            <br />
+            美容成分が角質全体に潤いを与え、はり、弾力のある艶やかなお肌に整えます。
+          </p>
+          <p>
+            化粧水、乳液、美容液。1本で3役の働き者です。
+            <br />
+          </p>
+          <p>
+            80mL　￥9,000(税別)
+            <br />
+          </p>
+          <p>
+            ■使用方法
+            <br />
+            ご使用前によくふってから500円玉大をとり、朝晩のお手入れにたっぷりとお使い下さい。乾燥の気になる部分には何度か重ね塗りしてください。
+          </p>
+          <a
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <img>
+              Mocked StaticImage component
+            </img>
+          </a>
+          <p>
+             
+          </p>
+          <p
+            className="large paragraph"
+          >
+             
+          </p>
+          <p
+            className="large paragraph"
+          >
+             
+          </p>
+          <p
+            className="large paragraph"
+          >
+            <b
+              style={
+                Object {
+                  "color": "#004000",
+                }
+              }
+            >
+              ○ラ・プレシア　クリーム U
+            </b>
+          </p>
+          <p
+            className="large paragraph"
+          >
+             
+          </p>
+          <p>
+            【プラセンタエキス　配合クリーム】
+            <br />
+            吸いつくような保湿感とともにキメのひとつひとつを整え、
+          </p>
+          <p>
+            ハリと弾力のある、乾燥知らずのお肌に整えます。
+          </p>
+          <p>
+            <br />
+            31g　￥8,500(税別)
+            <br />
+          </p>
+          <p>
+            ■使用方法
+            <br />
+            朝晩のお手入れの際、ローションを塗ったあとにパール1個分を目安にお顔全体にのばします。目元や口元など乾燥が気になる部分には、たっぷりとお使い下さい。
+          </p>
+          <a
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <img>
+              Mocked StaticImage component
+            </img>
+          </a>
+          <p>
+             
+          </p>
+          <p
+            className="large paragraph"
+          >
+             
+          </p>
+          <p
+            className="large paragraph"
+          >
+            <b
+              style={
+                Object {
+                  "color": "#004000",
+                }
+              }
+            >
+              ○ラ・プレシア　エクストラクリーム U
+            </b>
+            <br />
+          </p>
+          <p>
+             
+          </p>
+          <p>
+            【プラセンタエキス　配合クリーム】
+            <br />
+          </p>
+          <p>
+            吸いつくような美容成分がしっかりと潤いを与え、自らの持つ力でハリと弾力のあるお肌に整えます。
+            <br />
+          </p>
+          <p>
+             
+          </p>
+          <p>
+            30g　￥10,000(税別)
+            <br />
+          </p>
+          <p>
+             
+          </p>
+          <p>
+            ■使用方法
+            <br />
+            朝晩のお手入れの際、ローションを塗ったあとにパール1個分を目安にお顔全体にのばします。
+          </p>
+          <p>
+            目元や口元など乾燥が気になる部分には、たっぷりとお使い下さい。
+          </p>
+          <a
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <img>
+              Mocked StaticImage component
+            </img>
+          </a>
+          <p>
+             
+          </p>
+        </div>
+        <div
+          className="product-item"
+        >
+          <h2>
+            <span
+              style={
+                Object {
+                  "color": "#ce3348",
+                }
+              }
+            >
+              ラ・プレシア　SoRE
+            </span>
+          </h2>
+          <p
+            className="large paragraph"
+          >
+             
+          </p>
+          <p
+            className="large paragraph"
+          >
+            <b
+              style={
+                Object {
+                  "color": "#004000",
+                }
+              }
+            >
+              ○ソレ　サンアウト32
+            </b>
+            <br />
+          </p>
+          <p>
+             
+          </p>
+          <p>
+            【日焼け止めクリーム】
+            <br />
+            プラセンタエキス※配合で保湿しながらＵＶケア。
+          </p>
+          <p>
+            汗・水に強く、さらに白浮きを防ぎ、毛穴もカバーでき化粧下地に最適です。
+          </p>
+          <p>
+            お肌にやさしい低刺激タイプ。
+          </p>
+          <p>
+            <br />
+            30g　￥3,500(税別)
+            <br />
+          </p>
+          <p>
+             
+          </p>
+          <p>
+            ■使用方法
+            <br />
+            クレンジング、洗顔後に原液シリーズを塗布し、「ラ・プレシア　ローション」
+          </p>
+          <p>
+            「ラ・プレシア　クリーム」でお肌を整えた後、あずき粒大をお顔全体にムラなく伸ばします
+          </p>
+          <p>
+            （気になる箇所は重ね塗りをして下さい）。手や首にもお使いください。
+            <br />
+          </p>
+          <p>
+             
+          </p>
+          <a
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <img>
+              Mocked StaticImage component
+            </img>
           </a>
         </div>
-        <div>
-          ›
-        </div>
-        <div>
-          商品紹介
-        </div>
-      </div>
-    </div>
-    <div
-      id="main-inner"
-    >
-      <div
-        className="content-area"
-        id="primary"
-      >
         <div
-          className="site-content sp-part-top sp-content page-custom"
-          id="content"
-          role="main"
+          className="product-item"
         >
-          <header
-            className="entry-header sp-part-top sp-page-title"
-            id="sp-page-title-10"
-          >
-            <h1
-              className="entry-title"
+          <h2>
+            <span
+              style={
+                Object {
+                  "color": "#ce3348",
+                }
+              }
             >
-              商品紹介
-            </h1>
-          </header>
-          <article>
-            <div
-              className="sp-part-top sp-block-container"
-              id="page-content"
+              ラ・プレシア　ヴェール
+            </span>
+          </h2>
+          <p>
+             
+          </p>
+          <p>
+            スキンケア発想の魅せ肌ファンデ、『ラ・プレシア ヴェール』のご紹介です。
+          </p>
+          <p>
+            『ラ・プレシア ヴェール』は、素肌の喜ぶことを追求し続けるという発想で、スキンケアだけではなく
+          </p>
+          <p>
+            ファンデーションにまでこだわることで真の素肌を手に入れられるとの考えから開発されました。
+          </p>
+          <p>
+            肌がキレイな人を見るたび、羨ましくなる。鏡を見るたび、自分の肌が嫌いになる。
+          </p>
+          <p>
+            そんな女性の思いや悩みを少しでも解決したいというファンデーションです。
+          </p>
+          <p>
+            スキンケア発想だけに、ツボを押しながら塗布しリンパに流す手法で、
+          </p>
+          <p>
+            ケアしながらメイクできる一石二鳥の仕様となっています。
+          </p>
+          <p>
+            <b
+              style={
+                Object {
+                  "color": "#2d2d9f",
+                }
+              }
             >
-              <h1
-                className="paragraph"
-              >
-                <span
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#1c1c64",
-                    }
-                  }
-                >
-                  『ラ・プレシア シリーズ』
-                </span>
-              </h1>
-              <h1
-                className="paragraph"
-              >
-                <span
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#ce3348",
-                    }
-                  }
-                >
-                  ラ・プレシア　デュー
-                </span>
-              </h1>
-              <p
-                className="large paragraph"
-              >
-                <b
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#004000",
-                    }
-                  }
-                >
-                  ○プラセンタデュー100
-                </b>
-                　【プラセンタ美容液】
-              </p>
-              <p
-                className="paragraph"
-              >
-                <br />
-                プラセンタとは胎盤のことで、胎児の発育に必要不可欠な組織と言われています。
-              </p>
-              <p
-                className="paragraph"
-              >
-                プラセンタエキスは、この組織から抽出した天然美容液です。
-              </p>
-              <p
-                className="paragraph"
-              >
-                プラセンタエキスには10個もの美容効果があり、どんなお肌の方にも最適な多機能天然原液。
-              </p>
-              <p
-                className="paragraph"
-              >
-                多くの有効成分と成長因子の働きにより、細胞レベルで美肌に導きます。
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                30ml ￥9,000(税別)
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                ■使用方法
-                <br />
-                洗顔後の清潔なお肌にお使いください。
-              </p>
-              <p
-                className="paragraph"
-              >
-                気になる部分にはマッサージするように、2～3回重ね塗りしてください。
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                <br />
-              </p>
-              <a
-                style={
-                  Object {
-                    "display": "block",
-                  }
+              ※プラセンタエキス配合
+            </b>
+          </p>
+          <p>
+             
+          </p>
+          <p>
+            <b
+              style={
+                Object {
+                  "color": "#ce3348",
                 }
-              >
-                <img>
-                  Mocked StaticImage component
-                </img>
-              </a>
-              <br />
-              <h1
-                className="paragraph"
-              >
-                <span
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#ce3348",
-                    }
-                  }
-                >
-                  ラ・プレシア　スキンケア
-                </span>
-              </h1>
-              <p
-                className="large paragraph"
-              >
-                <b
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#004000",
-                    }
-                  }
-                >
-                  ○ラ・プレシア　クレンジングウォータージェル U
-                </b>
-              </p>
-              <p
-                className="paragraph"
-              >
-                <br />
-                【プラセンタエキス　配合クレンジング】
-                <br />
-                クレンジングでくすみ（角質からくる汚れ）のないお肌へ。
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                150mL　￥5,000(税別)
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                ■使用方法
-                <br />
-                500円玉大を手のひらにとり、お顔全体をマッサージするようによくなじませてください。全体になじみましたら、ぬるま湯等でよく洗い流してください。
-                <br />
-              </p>
-              <a
-                style={
-                  Object {
-                    "display": "block",
-                  }
-                }
-              >
-                <img>
-                  Mocked StaticImage component
-                </img>
-              </a>
-              <br />
-              <p
-                className="large paragraph"
-                style={
-                  Object {
-                    "color": "#004000",
-                  }
-                }
-              >
-                 
-              </p>
-              <p
-                className="large paragraph"
-                style={
-                  Object {
-                    "color": "#004000",
-                  }
-                }
-              >
-                 
-              </p>
-              <p
-                className="large paragraph"
-                style={
-                  Object {
-                    "color": "#004000",
-                  }
-                }
-              >
-                <b
-                  className="character"
-                >
-                  ○ラ・プレシア　ローション U
-                </b>
-              </p>
-              <p
-                className="paragraph"
-              >
-                【プラセンタエキス　配合二層式ローション】
-                <br />
-                美容成分が角質全体に潤いを与え、はり、弾力のある艶やかなお肌に整えます。
-              </p>
-              <p
-                className="paragraph"
-              >
-                化粧水、乳液、美容液。1本で3役の働き者です。
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                80mL　￥9,000(税別)
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                ■使用方法
-                <br />
-                ご使用前によくふってから500円玉大をとり、朝晩のお手入れにたっぷりとお使い下さい。乾燥の気になる部分には何度か重ね塗りしてください。
-              </p>
-              <a
-                style={
-                  Object {
-                    "display": "block",
-                  }
-                }
-              >
-                <img>
-                  Mocked StaticImage component
-                </img>
-              </a>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="large paragraph"
-              >
-                 
-              </p>
-              <p
-                className="large paragraph"
-              >
-                 
-              </p>
-              <p
-                className="large paragraph"
-              >
-                <b
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#004000",
-                    }
-                  }
-                >
-                  ○ラ・プレシア　クリーム U
-                </b>
-              </p>
-              <p
-                className="large paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                【プラセンタエキス　配合クリーム】
-                <br />
-                吸いつくような保湿感とともにキメのひとつひとつを整え、
-              </p>
-              <p
-                className="paragraph"
-              >
-                ハリと弾力のある、乾燥知らずのお肌に整えます。
-              </p>
-              <p
-                className="paragraph"
-              >
-                <br />
-                31g　￥8,500(税別)
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                ■使用方法
-                <br />
-                朝晩のお手入れの際、ローションを塗ったあとにパール1個分を目安にお顔全体にのばします。目元や口元など乾燥が気になる部分には、たっぷりとお使い下さい。
-              </p>
-              <a
-                style={
-                  Object {
-                    "display": "block",
-                  }
-                }
-              >
-                <img>
-                  Mocked StaticImage component
-                </img>
-              </a>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="large paragraph"
-              >
-                 
-              </p>
-              <p
-                className="large paragraph"
-              >
-                <b
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#004000",
-                    }
-                  }
-                >
-                  ○ラ・プレシア　エクストラクリーム U
-                </b>
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                【プラセンタエキス　配合クリーム】
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                吸いつくような美容成分がしっかりと潤いを与え、自らの持つ力でハリと弾力のあるお肌に整えます。
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                30g　￥10,000(税別)
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                ■使用方法
-                <br />
-                朝晩のお手入れの際、ローションを塗ったあとにパール1個分を目安にお顔全体にのばします。
-              </p>
-              <p
-                className="paragraph"
-              >
-                目元や口元など乾燥が気になる部分には、たっぷりとお使い下さい。
-              </p>
-              <a
-                style={
-                  Object {
-                    "display": "block",
-                  }
-                }
-              >
-                <img>
-                  Mocked StaticImage component
-                </img>
-              </a>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <h1
-                className="paragraph"
-              >
-                <span
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#ce3348",
-                    }
-                  }
-                >
-                  ラ・プレシア　SoRE
-                </span>
-              </h1>
-              <p
-                className="large paragraph"
-              >
-                 
-              </p>
-              <p
-                className="large paragraph"
-              >
-                <b
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#004000",
-                    }
-                  }
-                >
-                  ○ソレ　サンアウト32
-                </b>
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                【日焼け止めクリーム】
-                <br />
-                プラセンタエキス※配合で保湿しながらＵＶケア。
-              </p>
-              <p
-                className="paragraph"
-              >
-                汗・水に強く、さらに白浮きを防ぎ、毛穴もカバーでき化粧下地に最適です。
-              </p>
-              <p
-                className="paragraph"
-              >
-                お肌にやさしい低刺激タイプ。
-              </p>
-              <p
-                className="paragraph"
-              >
-                <br />
-                30g　￥3,500(税別)
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                ■使用方法
-                <br />
-                クレンジング、洗顔後に原液シリーズを塗布し、「ラ・プレシア　ローション」
-              </p>
-              <p
-                className="paragraph"
-              >
-                「ラ・プレシア　クリーム」でお肌を整えた後、あずき粒大をお顔全体にムラなく伸ばします
-              </p>
-              <p
-                className="paragraph"
-              >
-                （気になる箇所は重ね塗りをして下さい）。手や首にもお使いください。
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <a
-                style={
-                  Object {
-                    "display": "block",
-                  }
-                }
-              >
-                <img>
-                  Mocked StaticImage component
-                </img>
-              </a>
-              <h1
-                className="paragraph"
-              >
-                <span
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#ce3348",
-                    }
-                  }
-                >
-                  ラ・プレシア　ヴェール
-                </span>
-              </h1>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                スキンケア発想の魅せ肌ファンデ、『ラ・プレシア ヴェール』のご紹介です。
-              </p>
-              <p
-                className="paragraph"
-              >
-                『ラ・プレシア ヴェール』は、素肌の喜ぶことを追求し続けるという発想で、スキンケアだけではなく
-              </p>
-              <p
-                className="paragraph"
-              >
-                ファンデーションにまでこだわることで真の素肌を手に入れられるとの考えから開発されました。
-              </p>
-              <p
-                className="paragraph"
-              >
-                肌がキレイな人を見るたび、羨ましくなる。鏡を見るたび、自分の肌が嫌いになる。
-              </p>
-              <p
-                className="paragraph"
-              >
-                そんな女性の思いや悩みを少しでも解決したいというファンデーションです。
-              </p>
-              <p
-                className="paragraph"
-              >
-                スキンケア発想だけに、ツボを押しながら塗布しリンパに流す手法で、
-              </p>
-              <p
-                className="paragraph"
-              >
-                ケアしながらメイクできる一石二鳥の仕様となっています。
-              </p>
-              <p
-                className="paragraph"
-              >
-                <b
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#2d2d9f",
-                    }
-                  }
-                >
-                  ※プラセンタエキス配合
-                </b>
-              </p>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                <b
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#ce3348",
-                    }
-                  }
-                >
-                  ☆ラ・プレシア　ヴェール リキッドファンデーション
-                </b>
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                　　【水溶性ファンデーション】　　25g　￥3,500(税別)
-                <br />
-              </p>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                　○　通気性に優れ、軽い仕上がり
-              </p>
-              <p
-                className="paragraph"
-              >
-                　○　つけた瞬間から肌のハリ感、リフティングを実感
-              </p>
-              <p
-                className="paragraph"
-              >
-                　○　保湿性に優れ、いきいきとしたツヤと透明感を生み出す
-              </p>
-              <p
-                className="paragraph"
-              >
-                　○　化粧崩れしにくい、透明感ある仕上がり
-              </p>
-              <p
-                className="paragraph"
-              >
-                　○　１５種類以上の美容成分配合
-              </p>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <a
-                style={
-                  Object {
-                    "display": "block",
-                  }
-                }
-              >
-                <img>
-                  Mocked StaticImage component
-                </img>
-              </a>
-              <p
-                className="paragraph"
-              >
-                 
-              </p>
-              <p
-                className="paragraph"
-              >
-                <b
-                  className="character"
-                  style={
-                    Object {
-                      "color": "#ce3348",
-                    }
-                  }
-                >
-                  ☆ラ・プレシア　ヴェール ルースパウダー
-                </b>
-                <br />
-                　　【パウダーファンデーション】　8g　￥3,000(税別)・パフ付
-                <br />
-                <br />
-                　　○　超微粒子ルースパウダーでパール感があり上品な肌に
-              </p>
-              <p
-                className="paragraph"
-              >
-                　　○　一瞬にして肌になじみ、独自のツヤとフィット感を演出
-              </p>
-              <p
-                className="paragraph"
-              >
-                　　○　ふんわりとした明るさを与え化粧崩れを防止
-              </p>
-              <br />
-              <a
-                style={
-                  Object {
-                    "display": "block",
-                  }
-                }
-              >
-                <img>
-                  Mocked StaticImage component
-                </img>
-              </a>
-            </div>
-          </article>
-        </div>
-      </div>
-      <div
-        className="sp-part-top sp-sidebar"
-        id="sidebar1"
-      >
-        <div
-          className="sp-part-top sp-button"
-          id="sp-button-1"
-        >
+              }
+            >
+              ☆ラ・プレシア　ヴェール リキッドファンデーション
+            </b>
+            <br />
+          </p>
+          <p>
+            　　【水溶性ファンデーション】　　25g　￥3,500(税別)
+            <br />
+          </p>
+          <p>
+             
+          </p>
+          <p>
+            　○　通気性に優れ、軽い仕上がり
+          </p>
+          <p>
+            　○　つけた瞬間から肌のハリ感、リフティングを実感
+          </p>
+          <p>
+            　○　保湿性に優れ、いきいきとしたツヤと透明感を生み出す
+          </p>
+          <p>
+            　○　化粧崩れしにくい、透明感ある仕上がり
+          </p>
+          <p>
+            　○　１５種類以上の美容成分配合
+          </p>
+          <p>
+             
+          </p>
           <a
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <img>
+              Mocked StaticImage component
+            </img>
+          </a>
+          <p>
+             
+          </p>
+          <p>
+            <b
+              style={
+                Object {
+                  "color": "#ce3348",
+                }
+              }
+            >
+              ☆ラ・プレシア　ヴェール ルースパウダー
+            </b>
+            <br />
+            　　【パウダーファンデーション】　8g　￥3,000(税別)・パフ付
+            <br />
+            <br />
+            　　○　超微粒子ルースパウダーでパール感があり上品な肌に
+          </p>
+          <p>
+            　　○　一瞬にして肌になじみ、独自のツヤとフィット感を演出
+          </p>
+          <p>
+            　　○　ふんわりとした明るさを与え化粧崩れを防止
+          </p>
+          <br />
+          <a
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <img>
+              Mocked StaticImage component
+            </img>
+          </a>
+        </div>
+      </div>
+      <div
+        className="sidebar"
+      >
+        <div>
+          <a
+            className="blog-button"
             href="https://ameblo.jp/teamorion/?frm_id=v.mypage-ameblo--myblog--blog"
           >
             ブログ
           </a>
         </div>
-        <div
-          className="sp-part-top sp-button"
-          id="sp-button-2"
-        >
+        <div>
           <a
+            className="facebook-button"
             href="https://www.facebook.com/orionannex.orion"
           >
             Face Book
@@ -984,63 +805,27 @@ exports[`custom renders correctly 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </div>,
   <footer
-    className="site-footer sp-part-top sp-footer2"
-    id="colophon"
-    role="contentinfo"
+    className="footer"
   >
     <div
-      className="sp-part-top sp-footer-inner"
-      id="colophon-inner"
+      className="footer-link"
     >
-      <nav
-        className="navigation-main sp-part-top sp-site-navigation minimal"
-        id="sp-site-navigation-2"
-        role="navigation"
+      <a
+        className="privacy-policy-link"
+        href="/privacy"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
       >
-        <h1
-          className="menu-toggle"
-        >
-          メニュー
-        </h1>
-        <div
-          className="screen-reader-text skip-link"
-        >
-          <a
-            href="#content"
-            title="コンテンツへスキップ"
-          >
-            コンテンツへスキップ
-          </a>
-        </div>
-        <ul
-          id="menu-mainnav"
-        >
-          <li
-            className="menu-item"
-          >
-            <a
-              href="/privacy"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              プライバシーポリシー
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div
-        className="sp-part-top sp-block-container"
-        id="sp-block-container-1"
-      >
-        <p
-          className="copyright paragraph"
-        >
-          Copyright © オリオン美容室, All rights reserved.
-        </p>
-      </div>
+        プライバシーポリシー
+      </a>
     </div>
-  </footer>
-</div>
+    <p
+      className="copyright"
+    >
+      Copyright © オリオン美容室, All rights reserved.
+    </p>
+  </footer>,
+]
 `;

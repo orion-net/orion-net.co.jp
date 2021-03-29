@@ -1,6 +1,5 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import "../../static/style.css"
 import { Layout } from "../components/Layout"
 
 const Main = () => (

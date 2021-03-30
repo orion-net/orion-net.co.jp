@@ -55,6 +55,7 @@ h2 {
 
   img {
     width: 100%;
+    height: auto;
   }
 }
 
@@ -104,6 +105,7 @@ ul.navbar {
   $currentColor: #3f623d;
   $padding: 10px;
   padding-bottom: 10px;
+  height: auto;
 
   li {
     font-size: 1em;

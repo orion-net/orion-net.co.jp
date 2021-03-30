@@ -60,7 +60,12 @@ export const Layout = ({ children, pageTitle, currentNav }) => {
         <div onClick={hamburger.close}>
           <div className="logo">
             <Link to="/">
-              <img alt="オリオン美容室のトップ" src="/img/top3.png" />
+              <img
+                alt="オリオン美容室のトップ"
+                src="/img/top3.png"
+                width="707px"
+                height="353px"
+              />
             </Link>
           </div>
           <div className="article-wrapper">{children}</div>

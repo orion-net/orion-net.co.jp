@@ -1,7 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Layout } from "../components/Layout"
-import "../../static/style.css"
 
 const Main = () => (
   <Layout currentNav={{ custom3: true }} pageTitle="成人式・スナップ集">

@@ -1,360 +1,341 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`custom3 renders correctly 1`] = `
-<div
-  className="site"
-  id="page"
->
+Array [
   <div
-    className="site-main sp-part-top sp-main"
-    id="main"
+    className="hamburger-menu"
   >
     <div
-      className="sp-part-top sp-content-header"
-      id="contenthead"
+      className="bar-wrapper closed"
+      onClick={[Function]}
     >
-      <a
-        aria-current="page"
-        className=""
-        href="/"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-        style={Object {}}
-      >
-        <img>
-          Mocked StaticImage component
-        </img>
-      </a>
-      <nav
-        className="navigation-main button-menu sp-part-top sp-site-navigation horizontal"
-        id="sp-site-navigation-1"
-        role="navigation"
-      >
-        <span
-          className="menu-toggle"
-        />
-        <ul
-          className="toggled-on"
-          id="menu-mainnav"
-        >
-          <li
-            className="menu-item "
-          >
-            <a
-              aria-current="page"
-              className=""
-              href="/"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-              style={Object {}}
-            >
-              トップページ
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/concept"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              サロン紹介
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/menu"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              メニュー
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/custom"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              商品紹介
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/custom2"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              おすすめ
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/custom1"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              ご予約
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/access"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              アクセス
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/concept1"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              成人式・七五三
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/contact"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              お問い合わせ
-            </a>
-          </li>
-          <li
-            className="menu-item "
-          >
-            <a
-              href="/privacy"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              プライバシーポリシー
-            </a>
-          </li>
-          <li
-            className="menu-item current_page_item"
-          >
-            <a
-              href="/custom3"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              成人式・スナップ集
-            </a>
-          </li>
-        </ul>
-      </nav>
       <div
-        className="sp-part-top sp-bread-crumb"
-        id="breadcrumb-list"
-      >
-        <div>
-          <a
-            aria-current="page"
-            className=""
-            href="/"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            style={Object {}}
-          >
-            トップ
-          </a>
-        </div>
-        <div>
-          ›
-        </div>
-        <div>
-          成人式・スナップ集
-        </div>
-      </div>
+        className="bar bar0"
+      />
+      <div
+        className="bar bar1"
+      />
+      <div
+        className="bar bar2"
+      />
     </div>
+    <ul
+      className="navbar closed"
+      onClick={[Function]}
+    >
+      <li
+        className=""
+      >
+        <a
+          aria-current="page"
+          className=""
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          style={Object {}}
+        >
+          トップページ
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/concept"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          サロン紹介
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/menu"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          メニュー
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/custom"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          商品紹介
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/custom2"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          おすすめ
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/custom1"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ご予約
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/access"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          アクセス
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/concept1"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          成人式・七五三
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/contact"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          お問い合わせ
+        </a>
+      </li>
+      <li
+        className=""
+      >
+        <a
+          href="/privacy"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          プライバシーポリシー
+        </a>
+      </li>
+      <li
+        className="current_page_item"
+      >
+        <a
+          href="/custom3"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          成人式・スナップ集
+        </a>
+      </li>
+    </ul>
+  </div>,
+  <div
+    className="layout"
+  >
     <div
-      id="main-inner"
+      onClick={[Function]}
     >
       <div
-        className="content-area"
-        id="primary"
+        className="logo"
+      >
+        <a
+          aria-current="page"
+          className=""
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          style={Object {}}
+        >
+          <img
+            alt="オリオン美容室のトップ"
+            src="/img/top3.png"
+          />
+        </a>
+      </div>
+      <div
+        className="article-wrapper"
       >
         <div
-          className="site-content sp-part-top sp-content page-custom3"
-          id="content"
-          role="main"
+          className="content-area"
+          id="primary"
         >
-          <header
-            className="entry-header sp-part-top sp-page-title"
-            id="sp-page-title-12"
-          >
-            <h1
-              className="entry-title"
-            >
-              成人式・スナップ集
-            </h1>
-          </header>
           <div
-            className="sp-part-top sp-block-container"
-            id="sp-block-container-2"
+            className="site-content sp-part-top sp-content page-custom3"
+            id="content"
+            role="main"
           >
-            <p
-              className="large paragraph"
+            <header
+              className="entry-header sp-part-top sp-page-title"
+              id="sp-page-title-12"
             >
-              <b
-                className="character"
-                style={
-                  Object {
-                    "color": "#9e140c",
-                  }
-                }
+              <h1
+                className="entry-title"
               >
-                ※転載厳禁
-              </b>
-            </p>
-          </div>
-          <a
-            style={
-              Object {
-                "display": "block",
-              }
-            }
-          >
-            <img>
-              Mocked StaticImage component
-            </img>
-          </a>
-          <a
-            style={
-              Object {
-                "display": "block",
-              }
-            }
-          >
-            <img>
-              Mocked StaticImage component
-            </img>
-          </a>
-          <article>
+                成人式・スナップ集
+              </h1>
+            </header>
             <div
               className="sp-part-top sp-block-container"
-              id="page-content"
+              id="sp-block-container-2"
             >
-              <a
-                style={
-                  Object {
-                    "display": "block",
-                  }
-                }
+              <p
+                className="large paragraph"
               >
-                <img>
-                  Mocked StaticImage component
-                </img>
-              </a>
+                <b
+                  className="character"
+                  style={
+                    Object {
+                      "color": "#9e140c",
+                    }
+                  }
+                >
+                  ※転載厳禁
+                </b>
+              </p>
             </div>
-          </article>
-          <a
-            style={
-              Object {
-                "display": "block",
+            <a
+              style={
+                Object {
+                  "display": "block",
+                }
               }
-            }
-          >
-            <img>
-              Mocked StaticImage component
-            </img>
-          </a>
-          <a
-            style={
-              Object {
-                "display": "block",
+            >
+              <img>
+                Mocked StaticImage component
+              </img>
+            </a>
+            <a
+              style={
+                Object {
+                  "display": "block",
+                }
               }
-            }
-          >
-            <img>
-              Mocked StaticImage component
-            </img>
-          </a>
-          <a
-            style={
-              Object {
-                "display": "block",
+            >
+              <img>
+                Mocked StaticImage component
+              </img>
+            </a>
+            <article>
+              <div
+                className="sp-part-top sp-block-container"
+                id="page-content"
+              >
+                <a
+                  style={
+                    Object {
+                      "display": "block",
+                    }
+                  }
+                >
+                  <img>
+                    Mocked StaticImage component
+                  </img>
+                </a>
+              </div>
+            </article>
+            <a
+              style={
+                Object {
+                  "display": "block",
+                }
               }
-            }
-          >
-            <img>
-              Mocked StaticImage component
-            </img>
-          </a>
-          <a
-            style={
-              Object {
-                "display": "block",
+            >
+              <img>
+                Mocked StaticImage component
+              </img>
+            </a>
+            <a
+              style={
+                Object {
+                  "display": "block",
+                }
               }
-            }
-          >
-            <img>
-              Mocked StaticImage component
-            </img>
-          </a>
-          <a
-            style={
-              Object {
-                "display": "block",
+            >
+              <img>
+                Mocked StaticImage component
+              </img>
+            </a>
+            <a
+              style={
+                Object {
+                  "display": "block",
+                }
               }
-            }
-          >
-            <img>
-              Mocked StaticImage component
-            </img>
-          </a>
-          <a
-            style={
-              Object {
-                "display": "block",
+            >
+              <img>
+                Mocked StaticImage component
+              </img>
+            </a>
+            <a
+              style={
+                Object {
+                  "display": "block",
+                }
               }
-            }
-          >
-            <img>
-              Mocked StaticImage component
-            </img>
-          </a>
+            >
+              <img>
+                Mocked StaticImage component
+              </img>
+            </a>
+            <a
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <img>
+                Mocked StaticImage component
+              </img>
+            </a>
+            <a
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <img>
+                Mocked StaticImage component
+              </img>
+            </a>
+          </div>
         </div>
       </div>
       <div
-        className="sp-part-top sp-sidebar"
-        id="sidebar1"
+        className="sidebar"
       >
-        <div
-          className="sp-part-top sp-button"
-          id="sp-button-1"
-        >
+        <div>
           <a
+            className="blog-button"
             href="https://ameblo.jp/teamorion/?frm_id=v.mypage-ameblo--myblog--blog"
           >
             ブログ
           </a>
         </div>
-        <div
-          className="sp-part-top sp-button"
-          id="sp-button-2"
-        >
+        <div>
           <a
+            className="facebook-button"
             href="https://www.facebook.com/orionannex.orion"
           >
             Face Book
@@ -417,63 +398,27 @@ exports[`custom3 renders correctly 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </div>,
   <footer
-    className="site-footer sp-part-top sp-footer2"
-    id="colophon"
-    role="contentinfo"
+    className="footer"
   >
     <div
-      className="sp-part-top sp-footer-inner"
-      id="colophon-inner"
+      className="footer-link"
     >
-      <nav
-        className="navigation-main sp-part-top sp-site-navigation minimal"
-        id="sp-site-navigation-2"
-        role="navigation"
+      <a
+        className="privacy-policy-link"
+        href="/privacy"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
       >
-        <h1
-          className="menu-toggle"
-        >
-          メニュー
-        </h1>
-        <div
-          className="screen-reader-text skip-link"
-        >
-          <a
-            href="#content"
-            title="コンテンツへスキップ"
-          >
-            コンテンツへスキップ
-          </a>
-        </div>
-        <ul
-          id="menu-mainnav"
-        >
-          <li
-            className="menu-item"
-          >
-            <a
-              href="/privacy"
-              onClick={[Function]}
-              onMouseEnter={[Function]}
-            >
-              プライバシーポリシー
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div
-        className="sp-part-top sp-block-container"
-        id="sp-block-container-1"
-      >
-        <p
-          className="copyright paragraph"
-        >
-          Copyright © オリオン美容室, All rights reserved.
-        </p>
-      </div>
+        プライバシーポリシー
+      </a>
     </div>
-  </footer>
-</div>
+    <p
+      className="copyright"
+    >
+      Copyright © オリオン美容室, All rights reserved.
+    </p>
+  </footer>,
+]
 `;

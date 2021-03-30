@@ -1,14 +1,22 @@
 import React from "react"
 
 export const Sidebar = () => (
-  <div id="sidebar1" className="sp-part-top sp-sidebar">
-    <div id="sp-button-1" className="sp-part-top sp-button">
-      <a href="https://ameblo.jp/teamorion/?frm_id=v.mypage-ameblo--myblog--blog">
+  <div className="sidebar">
+    <div>
+      <a
+        className="blog-button"
+        href="https://ameblo.jp/teamorion/?frm_id=v.mypage-ameblo--myblog--blog"
+      >
         ブログ
       </a>
     </div>
-    <div id="sp-button-2" className="sp-part-top sp-button">
-      <a href="https://www.facebook.com/orionannex.orion">Face Book</a>
+    <div>
+      <a
+        className="facebook-button"
+        href="https://www.facebook.com/orionannex.orion"
+      >
+        Facebook
+      </a>
     </div>
     <div id="sp-sns-button-1" className="sp-part-top sp-sns-button">
       <ul>

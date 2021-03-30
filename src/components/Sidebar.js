@@ -15,7 +15,7 @@ export const Sidebar = () => (
         className="facebook-button"
         href="https://www.facebook.com/orionannex.orion"
       >
-        Face Book
+        Facebook
       </a>
     </div>
     <div id="sp-sns-button-1" className="sp-part-top sp-sns-button">

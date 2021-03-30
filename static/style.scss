@@ -55,6 +55,7 @@ h2 {
 
   img {
     width: 100%;
+    height: auto;
   }
 }
 
@@ -104,6 +105,7 @@ ul.navbar {
   $currentColor: #3f623d;
   $padding: 10px;
   padding-bottom: 10px;
+  height: auto;
 
   li {
     font-size: 1em;
@@ -118,6 +120,7 @@ ul.navbar {
       padding-left: 1.5em;
       background-image: url(img/bg_hpb-main-nav-li_sp.png);
       background-repeat: no-repeat;
+      background-position: left;
     }
 
     &:hover a {

@@ -102,11 +102,11 @@ const Main = () => (
             </p>
             <br />
             <p className="paragraph">
-              三歳　　　　　￥３０．０００　（税込）
+              三歳　　　　　￥３０．８００　（税込）
               <br />
-              五歳　　　　　￥２４.０００　（税込）
+              五歳　　　　　￥２４.２００　（税込）
               <br />
-              七歳　　　　　￥３８．０００　税込）
+              七歳　　　　　￥３８．５００　税込）
             </p>
             <p className="paragraph">ヘア・メイク・着付け・撮影料込</p>
             <p className="paragraph"> </p>
@@ -132,11 +132,11 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              三歳　　　　　　￥２５.３００　（税込）
+              三歳　　　　　　￥１４，３００　（税込）
               <br />
-              五歳　　　　　　￥１８.７００　（税込）
+              五歳　　　　　　￥７，７００　（税込）
               <br />
-              七歳　　　　　　￥３３．０００　（税込）
+              七歳　　　　　　￥２２，０００（税込）
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">ヘア・メイク・着付け</p>

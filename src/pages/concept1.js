@@ -28,7 +28,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              ヘア・メイク・着付け・撮影　　 ￥　４５，０００（税抜）
+              ヘア・メイク・着付け・撮影　　 ￥　４９，５００　（税込）
             </p>
             <p className="paragraph">　　</p>
             <p className="paragraph">
@@ -39,7 +39,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              ヘア・メイク・着付け　　　　　￥　３８，０００（税抜）　　
+              ヘア・メイク・着付け　　　　　￥　４１，８００　税込）　　
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">※貸衣装（料金別途）も承っております。</p>
@@ -102,11 +102,11 @@ const Main = () => (
             </p>
             <br />
             <p className="paragraph">
-              三歳　　　　　￥２８．０００（税抜）
+              三歳　　　　　￥３０．０００　（税込）
               <br />
-              五歳　　　　　￥２２．０００（税抜）
+              五歳　　　　　￥２４.０００　（税込）
               <br />
-              七歳　　　　　￥３５．０００（税抜）
+              七歳　　　　　￥３８．０００　税込）
             </p>
             <p className="paragraph">ヘア・メイク・着付け・撮影料込</p>
             <p className="paragraph"> </p>
@@ -132,11 +132,11 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              三歳　　　　　　￥２３．０００（税抜）
+              三歳　　　　　　￥２５.３００　（税込）
               <br />
-              五歳　　　　　　￥１７．０００（税抜）
+              五歳　　　　　　￥１８.７００　（税込）
               <br />
-              七歳　　　　　　￥３０．０００（税抜）
+              七歳　　　　　　￥３３．０００　（税込）
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">ヘア・メイク・着付け</p>

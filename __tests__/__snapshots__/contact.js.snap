@@ -168,7 +168,9 @@ Array [
         >
           <img
             alt="オリオン美容室のトップ"
+            height="353px"
             src="/img/top3.png"
+            width="707px"
           />
         </a>
       </div>
@@ -242,7 +244,7 @@ Array [
             className="facebook-button"
             href="https://www.facebook.com/orionannex.orion"
           >
-            Face Book
+            Facebook
           </a>
         </div>
         <div

@@ -39,7 +39,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              ヘア・メイク・着付け　　　　　￥　４１，８００　税込）　　
+              ヘア・メイク・着付け　　　　　￥　４１，８００　（税込）　　
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">※貸衣装（料金別途）も承っております。</p>
@@ -94,7 +94,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="large paragraph" style={{ color: "#2d2d9f" }}>
-              日程　１１月３日　(
+              日程　１１月７日　(
               <span className="character" style={{ color: "#e60000" }}>
                 祝
               </span>

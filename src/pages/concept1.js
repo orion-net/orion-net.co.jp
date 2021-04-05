@@ -39,7 +39,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              ヘア・メイク・着付け　　　　　￥　４１，８００　（税込）　　
+              ヘア・メイク・着付け　　　　　￥　４１，８００　（税込）
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">※貸衣装（料金別途）も承っております。</p>
@@ -114,9 +114,7 @@ const Main = () => (
             <p className="paragraph">
               CDデータ（スナップ写真・撮影したものすべて）
             </p>
-            <p className="paragraph">
-              台紙付き写真１枚（六つ切り）プレゼント　　　　　　　　　　
-            </p>
+            <p className="paragraph">台紙付き写真１枚（六つ切り）プレゼント</p>
             <p className="paragraph"> </p>
             <p className="paragraph">
               ※貸衣装（代金別途）も承っております。

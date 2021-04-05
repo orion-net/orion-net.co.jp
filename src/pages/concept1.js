@@ -28,7 +28,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              ヘア・メイク・着付け・撮影　　 ￥　４５，０００（税抜）
+              ヘア・メイク・着付け・撮影　　 ￥　４９，５００　（税込）
             </p>
             <p className="paragraph">　　</p>
             <p className="paragraph">
@@ -39,7 +39,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              ヘア・メイク・着付け　　　　　￥　３８，０００（税抜）　　
+              ヘア・メイク・着付け　　　　　￥　４１，８００　（税込）
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">※貸衣装（料金別途）も承っております。</p>
@@ -94,7 +94,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="large paragraph" style={{ color: "#2d2d9f" }}>
-              日程　１１月３日　(
+              日程　１１月７日　(
               <span className="character" style={{ color: "#e60000" }}>
                 祝
               </span>
@@ -102,11 +102,11 @@ const Main = () => (
             </p>
             <br />
             <p className="paragraph">
-              三歳　　　　　￥２８．０００（税抜）
+              三歳　　　　　￥３０．８００　（税込）
               <br />
-              五歳　　　　　￥２２．０００（税抜）
+              五歳　　　　　￥２４.２００　（税込）
               <br />
-              七歳　　　　　￥３５．０００（税抜）
+              七歳　　　　　￥３８．５００　税込）
             </p>
             <p className="paragraph">ヘア・メイク・着付け・撮影料込</p>
             <p className="paragraph"> </p>
@@ -114,9 +114,7 @@ const Main = () => (
             <p className="paragraph">
               CDデータ（スナップ写真・撮影したものすべて）
             </p>
-            <p className="paragraph">
-              台紙付き写真１枚（六つ切り）プレゼント　　　　　　　　　　
-            </p>
+            <p className="paragraph">台紙付き写真１枚（六つ切り）プレゼント</p>
             <p className="paragraph"> </p>
             <p className="paragraph">
               ※貸衣装（代金別途）も承っております。
@@ -132,11 +130,11 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              三歳　　　　　　￥２３．０００（税抜）
+              三歳　　　　　　￥１４，３００　（税込）
               <br />
-              五歳　　　　　　￥１７．０００（税抜）
+              五歳　　　　　　￥７，７００　（税込）
               <br />
-              七歳　　　　　　￥３０．０００（税抜）
+              七歳　　　　　　￥２２，０００（税込）
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">ヘア・メイク・着付け</p>

@@ -21,7 +21,7 @@ const Main = () => (
       </p>
       <p> </p>
       <h2>アクセス</h2>
-      <div>
+      <div>  
         <div className="access-way">電車の場合</div>
         <p>
           JR南武線・東急東横線　武蔵小杉駅より　バス　道中坂下、鷺沼駅行き　バス停「久末」下車

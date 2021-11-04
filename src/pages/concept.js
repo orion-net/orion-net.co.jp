@@ -13,18 +13,6 @@ const Main = () => (
     <div className="staffs">
       <div className="staff">
         <StaticImage
-          id="sp-image-8"
-          alt="sp-image-8"
-          layout="fixed"
-          width={228}
-          height={302}
-          src="../../static/img/1496900727362.jpg"
-          className="sp-part-top sp-image"
-        />
-        <div className="staff-name">武藤　大亮</div>
-      </div>
-      <div className="staff">
-        <StaticImage
           id="sp-image-9"
           alt="sp-image-9"
           layout="fixed"

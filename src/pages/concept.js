@@ -18,7 +18,7 @@ const Main = () => (
           layout="fixed"
           width={228}
           height={302}
-          src="../../static/img/1496901447498.jpg"
+          src="../../static/img/staffs/mutou-keisuke.jpg"
           className="sp-part-top sp-image"
         />
         <div className="staff-name">武藤　圭佑</div>

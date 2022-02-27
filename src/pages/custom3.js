@@ -42,18 +42,14 @@ const Main = () => (
             className="sp-part-top sp-image"
           />
         </a>
-        <article>
-          <div id="page-content" className="sp-part-top sp-block-container">
-            <a style={{ display: "block" }}>
-              <StaticImage
-                id="sp-image-37"
-                alt="sp-image-37"
-                src="../../static/img/image50.jpg"
-                className="sp-part-top sp-image"
-              />
-            </a>
-          </div>
-        </article>
+        <a style={{ display: "block" }}>
+          <StaticImage
+            id="sp-image-37"
+            alt="sp-image-37"
+            src="../../static/img/image50.jpg"
+            className="sp-part-top sp-image"
+          />
+        </a>
         <a style={{ display: "block" }}>
           <StaticImage
             id="sp-image-38"

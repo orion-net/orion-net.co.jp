@@ -3,7 +3,11 @@ import { Layout } from "../components/Layout"
 import { PhoneNumberLink } from "../components/PhoneNumberLink"
 
 const Main = () => (
-  <Layout currentNav={{ contact: true }} pageTitle="お問い合わせ">
+  <Layout
+    currentNav={{ contact: true }}
+    pageTitle="お問い合わせ"
+    fileName="contact.js"
+  >
     <h1>お問い合わせ</h1>
     <div className="discription">
       お問い合わせは、こちらで受付しております。

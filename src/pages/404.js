@@ -2,7 +2,7 @@ import React from "react"
 import { Layout } from "../components/Layout"
 
 const Main = () => (
-  <Layout>
+  <Layout pageTitle="ページが見つかりません！" fileName="404.js">
     <div id="primary" className="content-area">
       <div
         id="content"

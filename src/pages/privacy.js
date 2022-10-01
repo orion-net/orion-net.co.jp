@@ -2,7 +2,11 @@ import React from "react"
 import { Layout } from "../components/Layout"
 
 const Main = () => (
-  <Layout currentNav={{ privacy: true }} pageTitle="プライバシーポリシー">
+  <Layout
+    currentNav={{ privacy: true }}
+    pageTitle="プライバシーポリシー"
+    fileName="privacy.js"
+  >
     <h1>プライバシーポリシー</h1>
     <div className="discription">
       オリオン（以下当店）では、個人情報に関する法令およびその他の規範を遵守し、

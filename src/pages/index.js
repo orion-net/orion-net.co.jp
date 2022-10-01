@@ -2,7 +2,7 @@ import React from "react"
 import { Layout } from "../components/Layout"
 
 const Main = () => (
-  <Layout currentNav={{ top: true }} pageTitle="トップ">
+  <Layout currentNav={{ top: true }} pageTitle="トップ" fileName="index.js">
     <h1>トップページ</h1>
     <h2>オリオンは、川崎市高津区久末にある美容院・ヘアーサロンです。</h2>
     <div

@@ -3,7 +3,11 @@ import { Layout } from "../components/Layout"
 import { PhoneNumberLink } from "../components/PhoneNumberLink"
 
 const Main = () => (
-  <Layout currentNav={{ custom1: true }} pageTitle="ご予約">
+  <Layout
+    currentNav={{ custom1: true }}
+    pageTitle="ご予約"
+    fileName="custom1.js"
+  >
     <h1>ご予約</h1>
     <div className="discription">ご予約はお電話でお願い致します。</div>
     <div className="menu">

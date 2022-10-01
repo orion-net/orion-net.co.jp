@@ -4,7 +4,11 @@ import { Layout } from "../components/Layout"
 import { PhoneNumberLink } from "../components/PhoneNumberLink"
 
 const Main = () => (
-  <Layout currentNav={{ access: true }} pageTitle="アクセス">
+  <Layout
+    currentNav={{ access: true }}
+    pageTitle="アクセス"
+    fileName="access.js"
+  >
     <h1>アクセス</h1>
     <div id="page-content">
       <h2>周辺地図</h2>

@@ -2,7 +2,7 @@ import React from "react"
 import { Layout } from "../components/Layout"
 
 const Main = () => (
-  <Layout currentNav={{ menu: true }} pageTitle="メニュー">
+  <Layout currentNav={{ menu: true }} pageTitle="メニュー" fileName="menu.js">
     <h1>メニュー</h1>
     <div className="menu">
       <h2>カット</h2>

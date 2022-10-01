@@ -3,7 +3,11 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Layout } from "../components/Layout"
 
 const Main = () => (
-  <Layout currentNav={{ custom: true }} pageTitle="商品紹介">
+  <Layout
+    currentNav={{ custom: true }}
+    pageTitle="商品紹介"
+    fileName="custom.js"
+  >
     <h1 className="entry-title">商品紹介</h1>
     <h2>
       <span style={{ color: "#1c1c64" }}>『ラ・プレシア シリーズ』</span>

@@ -3,7 +3,11 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Layout } from "../components/Layout"
 
 const Main = () => (
-  <Layout currentNav={{ concept: true }} pageTitle="サロン紹介">
+  <Layout
+    currentNav={{ concept: true }}
+    pageTitle="サロン紹介"
+    fileName="concept.js"
+  >
     <h1 className="entry-title">サロン紹介</h1>
     <h2>スタッフ情報</h2>
     <div className="staff">

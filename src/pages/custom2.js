@@ -3,7 +3,11 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Layout } from "../components/Layout"
 
 const Main = () => (
-  <Layout currentNav={{ custom2: true }} pageTitle="おすすめ">
+  <Layout
+    currentNav={{ custom2: true }}
+    pageTitle="おすすめ"
+    fileName="custom2.js"
+  >
     <h1 className="entry-title">おすすめ</h1>
     <h2 style={{ textAlign: "left" }}>
       ミントベル　シャンプー・コンディショナー
@@ -281,9 +285,7 @@ const Main = () => (
       />
     </a>
     <p> </p>
-    <p style={{ color: "#2d2d9f" }}>
-      200mL　¥1,３２０　（税込）
-    </p>
+    <p style={{ color: "#2d2d9f" }}>200mL　¥1,３２０　（税込）</p>
     <p> </p>
     <p style={{ fontSize: "1.6rem", color: "#ececec" }}>
       <b style={{ color: "#df5300" }}>Ｆ.プロテクト フォルムキーパー</b>

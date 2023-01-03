@@ -53,11 +53,6 @@ const useHamburger = initial => {
 export const Layout = ({ children, pageTitle, currentNav, fileName }) => {
   const hamburger = useHamburger(false)
 
-  console.clear()
-  console.log(
-    `Edit this page:\nhttps://github.com/orion-net/orion-net.co.jp/edit/develop/src/pages/${fileName}`
-  )
-
   return (
     <WithHelmet pageTitle={pageTitle}>
       <LinkNav {...currentNav} hamburger={hamburger} />
@@ -74,7 +69,9 @@ export const Layout = ({ children, pageTitle, currentNav, fileName }) => {
             </Link>
           </div>
           <div className="article-wrapper">{children}</div>
-          <Sidebar />
+          <Sidebar
+            editLink={`https://github.com/orion-net/orion-net.co.jp/edit/develop/src/pages/${fileName}`}
+          />
         </div>
       </div>
       <Footer />

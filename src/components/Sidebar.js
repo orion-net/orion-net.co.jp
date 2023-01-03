@@ -1,6 +1,6 @@
 import React from "react"
 
-export const Sidebar = () => (
+export const Sidebar = ({ editLink }) => (
   <div className="sidebar">
     <div>
       <a
@@ -58,6 +58,11 @@ export const Sidebar = () => (
               alt=""
               style={{ border: "none" }}
             />
+          </a>
+        </li>
+        <li>
+          <a href={editLink} target="_blank" rel="noreferrer">
+            このページを編集
           </a>
         </li>
       </ul>

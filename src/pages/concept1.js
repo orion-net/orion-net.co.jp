@@ -58,81 +58,90 @@ const Main = () => (
             <br />
             <a style={{ display: "block" }}>
               <StaticImage
-                id="seijin1"
-                alt="seijin1"
-                src="../../static/img/seijin1.jpg"
+                id="seijin02"
+                alt="seijin02"
+                src="../../static/img/seijin01.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <br />
             <a style={{ display: "block" }}>
               <StaticImage
-                id="seijin2"
-                alt="seijin2"
-                src="../../static/img/seijin2.jpg"
+                id="seijin01"
+                alt="seijin01"
+                src="../../static/img/seijin02.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <br />
             <a style={{ display: "block" }}>
               <StaticImage
-                id="seijin3"
-                alt="seijin3"
-                src="../../static/img/seijin3.jpg"
+                id="seijin03"
+                alt="seijin03"
+                src="../../static/img/seijin03.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <br />
             <a style={{ display: "block" }}>
               <StaticImage
-                id="seijin4"
-                alt="seijin4"
-                src="../../static/img/seijin4.jpg"
+                id="seijin04"
+                alt="seijin04"
+                src="../../static/img/seijin04.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <br />
             <a style={{ display: "block" }}>
               <StaticImage
-                id="seijin5"
-                alt="seijin5"
-                src="../../static/img/seijin5.jpg"
+                id="seijin05"
+                alt="seijin05"
+                src="../../static/img/seijin05.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <br />
             <a style={{ display: "block" }}>
               <StaticImage
-                id="seijin6"
-                alt="seijin6"
-                src="../../static/img/seijin6.jpg"
+                id="seijin06"
+                alt="seijin06"
+                src="../../static/img/seijin06.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <br />
             <a style={{ display: "block" }}>
               <StaticImage
-                id="seijin7"
-                alt="seijin7"
-                src="../../static/img/seijin7.jpg"
+                id="seijin07"
+                alt="seijin07"
+                src="../../static/img/seijin07.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <br />
             <a style={{ display: "block" }}>
               <StaticImage
-                id="seijin8"
-                alt="seijin8"
-                src="../../static/img/seijin8.jpg"
+                id="seijin08"
+                alt="seijin08"
+                src="../../static/img/seijin08.jpg"
                 className="sp-part-top sp-image"
               />
             </a>
             <br />
             <a style={{ display: "block" }}>
               <StaticImage
-                id="seijin9"
-                alt="seijin9"
-                src="../../static/img/seijin9.jpg"
+                id="seijin09"
+                alt="seijin09"
+                src="../../static/img/seijin09.jpg"
+                className="sp-part-top sp-image"
+              />
+            </a>
+            <br />
+            <a style={{ display: "block" }}>
+              <StaticImage
+                id="seijin10"
+                alt="seijin10"
+                src="../../static/img/seijin10.jpg"
                 className="sp-part-top sp-image"
               />
             </a>

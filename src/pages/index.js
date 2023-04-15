@@ -50,7 +50,7 @@ const Main = () => (
       <b style={{ color: "#2d2d9f" }}>◎営業時間　　9:00～18:00</b>
       <br />
       <b style={{ color: "#2d2d9f" }}>◎定休日</b>
-      <b style={{ color: "#2d2d9f" }}>毎週火曜日　第2第3月曜日</b>
+      <b style={{ color: "#2d2d9f" }}>毎週火曜日　第１第2第3月曜日</b>
     </div>
     <div className="discription">
       ※年始休・夏休み（８月）有 　お電話にてお問い合わせください。

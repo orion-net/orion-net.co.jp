@@ -10,7 +10,7 @@ const Message = () => (
     <br />
     <a
       target="_blank"
-      href="https://www.google.com/maps?q=高津区久末 オリオン美容室"
+      href="https://g.co/kgs/qtBHz3"
       rel="noreferrer"
     >
       Google Mapsで開く

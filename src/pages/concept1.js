@@ -32,7 +32,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              ヘア・メイク・着付け・撮影　　 ￥　４９，５００　（税込）
+              ヘア・メイク・着付け・撮影　　 ￥５５，０００（税込）
             </p>
             <p className="paragraph">　　</p>
             <p className="paragraph">

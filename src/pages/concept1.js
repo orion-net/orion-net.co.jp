@@ -32,7 +32,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              ヘア・メイク・着付け・撮影　　 ￥　５５，０００　（税込）
+              ヘア・メイク・着付け・撮影　　 ￥　５５，０００　（税抜）
             </p>
             <p className="paragraph">　　</p>
             <p className="paragraph">
@@ -43,7 +43,7 @@ const Main = () => (
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">
-              ヘア・メイク・着付け　　　　　￥　４１，８００　（税込）
+              ヘア・メイク・着付け　　　　　￥　４０，０００　（税抜）
             </p>
             <p className="paragraph"> </p>
             <p className="paragraph">※貸衣装（料金別途）も承っております。</p>

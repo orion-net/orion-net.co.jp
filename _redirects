@@ -1,4 +1,6 @@
-https://orion-net-co-jp.netlify.app https://orion-net.co.jp 301
+http://orion-net-co-jp.netlify.app/* https://orion-net.co.jp/:splat 301!
+https://orion-net-co-jp.netlify.app/* https://orion-net.co.jp/:splat 301!
+
 /custom3 /photos 301
 /concept1 /plans 301
 /custom /products 301

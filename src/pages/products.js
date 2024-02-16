@@ -4,9 +4,9 @@ import { Layout } from "../components/Layout"
 
 const Main = () => (
   <Layout
-    currentNav={{ custom: true }}
+    currentNav={{ products: true }}
     pageTitle="商品紹介"
-    fileName="custom.js"
+    fileName="products.js"
   >
     <h1 className="entry-title">商品紹介</h1>
     <h2>

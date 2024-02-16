@@ -4,9 +4,9 @@ import { PhoneNumberLink } from "../components/PhoneNumberLink"
 
 const Main = () => (
   <Layout
-    currentNav={{ custom1: true }}
+    currentNav={{ reservation: true }}
     pageTitle="ご予約"
-    fileName="custom1.js"
+    fileName="reservation.js"
   >
     <h1>ご予約</h1>
     <div className="discription">ご予約はお電話でお願い致します。</div>

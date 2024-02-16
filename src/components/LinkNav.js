@@ -5,14 +5,14 @@ const LinkNav = ({
   top,
   concept,
   menu,
-  custom,
-  custom2,
-  custom1,
+  products,
+  "top-pick": toppick,
+  reservation,
   access,
-  concept1,
+  plans,
   contact,
   privacy,
-  custom3,
+  photos,
   hamburger,
 }) => (
   <div className="hamburger-menu">
@@ -35,20 +35,20 @@ const LinkNav = ({
       <li className={`${menu ? "current_page_item" : ""}`}>
         <Link to="/menu">メニュー</Link>
       </li>
-      <li className={`${custom ? "current_page_item" : ""}`}>
-        <Link to="/custom">商品紹介</Link>
+      <li className={`${products ? "current_page_item" : ""}`}>
+        <Link to="/products">商品紹介</Link>
       </li>
-      <li className={`${custom2 ? "current_page_item" : ""}`}>
-        <Link to="/custom2">おすすめ</Link>
+      <li className={`${toppick ? "current_page_item" : ""}`}>
+        <Link to="/top-pick">おすすめ</Link>
       </li>
-      <li className={`${custom1 ? "current_page_item" : ""}`}>
-        <Link to="/custom1">ご予約</Link>
+      <li className={`${reservation ? "current_page_item" : ""}`}>
+        <Link to="/reservation">ご予約</Link>
       </li>
       <li className={`${access ? "current_page_item" : ""}`}>
         <Link to="/access">アクセス</Link>
       </li>
-      <li className={`${concept1 ? "current_page_item" : ""}`}>
-        <Link to="/concept1">成人式・七五三</Link>
+      <li className={`${plans ? "current_page_item" : ""}`}>
+        <Link to="/plans">成人式・七五三</Link>
       </li>
       <li className={`${contact ? "current_page_item" : ""}`}>
         <Link to="/contact">お問い合わせ</Link>
@@ -56,8 +56,8 @@ const LinkNav = ({
       <li className={`${privacy ? "current_page_item" : ""}`}>
         <Link to="/privacy">プライバシーポリシー</Link>
       </li>
-      <li className={`${custom3 ? "current_page_item" : ""}`}>
-        <Link to="/custom3">成人式・スナップ集</Link>
+      <li className={`${photos ? "current_page_item" : ""}`}>
+        <Link to="/photos">成人式・スナップ集</Link>
       </li>
     </ul>
   </div>

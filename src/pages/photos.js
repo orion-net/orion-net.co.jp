@@ -4,9 +4,9 @@ import { Layout } from "../components/Layout"
 
 const Main = () => (
   <Layout
-    currentNav={{ custom3: true }}
+    currentNav={{ photos: true }}
     pageTitle="成人式・スナップ集"
-    fileName="custom3.js"
+    fileName="photos.js"
   >
     <div id="primary" className="content-area">
       <div

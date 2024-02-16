@@ -4,9 +4,9 @@ import { Layout } from "../components/Layout"
 
 const Main = () => (
   <Layout
-    currentNav={{ concept1: true }}
+    currentNav={{ plans: true }}
     pageTitle="成人式・七五三"
-    fileName="concept1.js"
+    fileName="plans.js"
   >
     <div id="primary" className="content-area">
       <div

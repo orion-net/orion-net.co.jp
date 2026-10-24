@@ -1,8 +1,5 @@
 #!/bin/bash
-set -e
-curl -fsSL https://bun.sh/install | bash
-export PATH="/opt/buildhome/.bun/bin:$PATH"
-bun --version
-bun install
+set -eu
+
 bun run build
-mv _redirects public/
+cp _redirects public/

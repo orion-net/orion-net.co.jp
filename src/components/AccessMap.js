@@ -1,6 +1,18 @@
 import React from "react"
+import { Icon } from "leaflet"
 import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet"
 import "leaflet/dist/leaflet.css"
+import markerIcon from "leaflet/dist/images/marker-icon.png"
+import markerIconRetina from "leaflet/dist/images/marker-icon-2x.png"
+import markerShadow from "leaflet/dist/images/marker-shadow.png"
+
+if (typeof window !== "undefined") {
+  Icon.Default.mergeOptions({
+    iconUrl: markerIcon,
+    iconRetinaUrl: markerIconRetina,
+    shadowUrl: markerShadow,
+  })
+}
 
 const position = [35.564414, 139.612416]
 const zoom = 16
